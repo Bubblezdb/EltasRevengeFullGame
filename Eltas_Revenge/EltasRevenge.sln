@@ -7,10 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShooterLibrary", "..\Shoote
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B612DA97-DBC5-4D5B-87C7-15DD5F366E1B}"
 	ProjectSection(SolutionItems) = preProject
-		maze1.txt = maze1.txt
+		..\Graphics\FI_Chap1.txt = ..\Graphics\FI_Chap1.txt
+		..\Graphics\FlyAwayWithDog.txt = ..\Graphics\FlyAwayWithDog.txt
+		..\Graphics\LaunchScreen.txt = ..\Graphics\LaunchScreen.txt
+		..\Graphics\maze1.txt = ..\Graphics\maze1.txt
+		..\Graphics\maze2.txt = ..\Graphics\maze2.txt
+		..\Graphics\maze3.txt = ..\Graphics\maze3.txt
+		..\Graphics\maze4.txt = ..\Graphics\maze4.txt
+		..\Graphics\maze5.txt = ..\Graphics\maze5.txt
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sounds", "Sounds", "{FC848E59-CFFD-496F-A438-D5BDB824F35F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EltasRevenge", "EltasRevenge.csproj", "{EC845658-4E57-44E5-9DB3-45AD4B6B0F88}"
 EndProject
@@ -37,9 +42,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{FC848E59-CFFD-496F-A438-D5BDB824F35F} = {B612DA97-DBC5-4D5B-87C7-15DD5F366E1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5B5FF39-0B09-466F-B598-FC6999DD736E}

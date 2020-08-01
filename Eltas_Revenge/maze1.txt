@@ -3,7 +3,7 @@
 |      XXXXXXXXXXXXXXXX                              XXXXXXXXXXXX     |
 |       X XXXXXXXXXXXXX                             XXXXXXXXXXXXXX    |
 |       XXXXXXXXXXXXXX                                 XXXXXXXXXXXX   |
-|        XXXXXXXXXXXXXX                $                   XXXXXXXXX   |
+|        XXXXXXXXXXXXXX                                   XXXXXXXXX   |
 |                XXXXXX                                   XXXXXXXX    |
 |                XXXXXXX                                    XXXX      |
 |                XXXXXXXX             XXXXXXXXX                       |

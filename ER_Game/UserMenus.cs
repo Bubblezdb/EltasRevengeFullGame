@@ -158,35 +158,36 @@ namespace ER_GameLibrary
         {
 
         }
-        public void PlayerStats(Player player)
-        {
-            SetCursorPosition(10, 41); ForegroundColor = ConsoleColor.Yellow; WriteLine(player.Coin);
-            if (player.Coin <= 20)
-            {
-                ForegroundColor = ConsoleColor.Red;
-            }
-            SetCursorPosition(32, 41); ForegroundColor = ConsoleColor.Green; WriteLine(player.Health);
-            if (player.Health <= 50)
-            {
-                ForegroundColor = ConsoleColor.Red;
-            }
-            SetCursorPosition(32, 43); ForegroundColor = ConsoleColor.White; WriteLine(player.Armor);
+        //public void PlayerStats(Player player)
+        //{
+        //    SetCursorPosition(10, 41); ForegroundColor = ConsoleColor.Yellow; WriteLine(player.Coin);
             
-            SetCursorPosition(11, 43); ForegroundColor = ConsoleColor.White; WriteLine(player.Attack);
+        //    if (player.Coin <= 20)
+        //    {
+        //        ForegroundColor = ConsoleColor.Red;
+        //    }
+        //    SetCursorPosition(32, 41); ForegroundColor = ConsoleColor.Green; WriteLine(player.Health);
+        //    if (player.Health <= 50)
+        //    {
+        //        ForegroundColor = ConsoleColor.Red;
+        //    }
+        //    SetCursorPosition(32, 43); ForegroundColor = ConsoleColor.White; WriteLine(player.Armor);
             
-            SetCursorPosition(10, 45); ForegroundColor = ConsoleColor.Cyan; WriteLine(player.Life);
-            if (player.Coin <= 2)
-            {
-                ForegroundColor = ConsoleColor.Red;
-            }
-            SetCursorPosition(32, 45); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(player.Rejuvenation);
-            if(player.Rejuvenation<=5)
-            {
-                ForegroundColor = ConsoleColor.Red;
-            }
+        //    SetCursorPosition(11, 43); ForegroundColor = ConsoleColor.White; WriteLine(player.Attack);
+            
+        //    SetCursorPosition(10, 45); ForegroundColor = ConsoleColor.Cyan; WriteLine(player.Life);
+        //    if (player.Coin <= 2)
+        //    {
+        //        ForegroundColor = ConsoleColor.Red;
+        //    }
+        //    SetCursorPosition(32, 45); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(player.Rejuvenation);
+        //    if(player.Rejuvenation<=5)
+        //    {
+        //        ForegroundColor = ConsoleColor.Red;
+        //    }
             
             
-        }
+        //}
 
         public void EnemyStats(Enemies enemy)
         {

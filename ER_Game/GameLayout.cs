@@ -83,7 +83,7 @@ namespace ER_GameLibrary
                 return false;
             }
             //Check if the grid is walkable tile.
-            return Grid[y, x] == " " || Grid[y, x] == "{" || Grid[y, x] == "}" || Grid[y, x] == "=";
+            return Grid[y, x] == " " || Grid[y, x] == "{" || Grid[y, x] == "}" || Grid[y, x] == "=" || Grid[y, x] == "$"|| Grid[y, x] == "<" ||Grid[y, x] == ">";
         }
     }
 

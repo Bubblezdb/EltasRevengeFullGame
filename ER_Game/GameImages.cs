@@ -123,18 +123,18 @@ SetCursorPosition(59, 29);ForegroundColor=ConsoleColor.DarkCyan;WriteLine(@"    
             SetCursorPosition(73, 38); ForegroundColor = ConsoleColor.White; WriteLine(@"####################################################################");
         }
 
-        public void AttributeMenu()// works
+        public void AttributeMenu(Player player)// works
         {
             
             SetCursorPosition(0, 38); ForegroundColor = ConsoleColor.White; WriteLine(@" %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
             SetCursorPosition(0, 39); ForegroundColor = ConsoleColor.White; WriteLine(@" %+------------------------------------------+     +------------------------------------------------------------------------------------------------------------------+%");
             SetCursorPosition(0, 40); ForegroundColor = ConsoleColor.White; WriteLine(@" %|           PLAYER STATS                   |     |                                                                                                                  |%");
             SetCursorPosition(0, 41); ForegroundColor = ConsoleColor.White; WriteLine(@" %|                                          |     |                                                                                                                  |%");
-            SetCursorPosition(0, 42); ForegroundColor = ConsoleColor.White; WriteLine(@" %|COINS:              HEALTH:               |     |                                                                                                                  |%");
+            SetCursorPosition(0, 42); ForegroundColor = ConsoleColor.White; WriteLine($@" %|COINS:{player.Coin}                HEALTH:{player.Health}           |     |                                                                                                                  |%");
             SetCursorPosition(0, 43); ForegroundColor = ConsoleColor.White; WriteLine(@" %|                                          |     |                                                                                                                  |%");
-            SetCursorPosition(0, 44); ForegroundColor = ConsoleColor.White; WriteLine(@" %|ATTACK:             ARMOR:                |     |                                                                                                                  |%");
+            SetCursorPosition(0, 44); ForegroundColor = ConsoleColor.White; WriteLine($@" %|ATTACK:{player.Attack}               ARMOR:{player.Armor}             |     |                                                                                                                  |%");
             SetCursorPosition(0, 45); ForegroundColor = ConsoleColor.White; WriteLine(@" %|                                          |     |                                                                                                                  |%");
-            SetCursorPosition(0, 46); ForegroundColor = ConsoleColor.White; WriteLine(@" %|LIFE:             BEETS:                  |     |                                                                                                                  |%");
+            SetCursorPosition(0, 46); ForegroundColor = ConsoleColor.White; WriteLine($@" %|LIFE:                 BEETS:             |     |                                                                                                                  |%");
             SetCursorPosition(0, 47); ForegroundColor = ConsoleColor.White; WriteLine(@" %|                                          |     |                                                                                                                  |%");
             SetCursorPosition(0, 48); ForegroundColor = ConsoleColor.White; WriteLine(@" %+------------------------------------------+     +------------------------------------------------------------------------------------------------------------------+%");
             SetCursorPosition(0, 49); ForegroundColor = ConsoleColor.White; WriteLine(@" %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");

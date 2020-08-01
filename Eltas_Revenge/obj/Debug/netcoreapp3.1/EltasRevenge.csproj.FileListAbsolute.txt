@@ -16,4 +16,11 @@ D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\obj\Deb
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\obj\Debug\netcoreapp3.1\EltasRevenge.dll
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\obj\Debug\netcoreapp3.1\EltasRevenge.pdb
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\obj\Debug\netcoreapp3.1\EltasRevenge.genruntimeconfig.cache
+D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\FI_Chap1.txt
+D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\FlyAwayWithDog.txt
+D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\LaunchScreen.txt
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\maze1.txt
+D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\maze2.txt
+D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\maze3.txt
+D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\maze4.txt
+D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\maze5.txt
