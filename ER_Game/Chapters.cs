@@ -35,27 +35,28 @@ namespace ER_GameLibrary
 
         private void RunGameLoop(Player player,Items items, GameLayout gameLayout, PlayerControls playerControls, UserMenus menu)// allows the maze to continue generating when the player goes through it.
         {
-            
+            // code needs working on. Doesn't acknowledge map items
             Clear();
             gameLayout.Draw();
-            CurrentImages.AttributeMenu();
-            items.Draw();
+            
+            //items.Draw();//
 
             string elementAtPlayerPos = gameLayout.GetElementAt(player.X, player.Y);
             while (true)
             {
-                
+                CurrentImages.AttributeMenu();
                 //check for player input from keyboard and move the player
                 CurrentPlayer.Draw();
                 CurrentMenu.PlayerStats(CurrentPlayer);
                CurrentControls.HandlePlayerInput(CurrentPlayer, gameLayout);
                 if (elementAtPlayerPos == "{" || elementAtPlayerPos == "}")// This is how to break the loop to exit
                 {
-                    Shopkeeper();
+                    break;
                 }
                 else if (elementAtPlayerPos == "$")
                 {
                     player.Coin += rand.Next(0, 5);
+                    CurrentMenu.PlayerStats(CurrentPlayer);
                 }
             }
             
