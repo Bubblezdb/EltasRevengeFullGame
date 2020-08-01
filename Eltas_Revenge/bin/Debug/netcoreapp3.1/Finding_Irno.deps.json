@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Finding_Irno/1.0.0": {
+        "dependencies": {
+          "Enumerations": "1.0.0",
+          "FI_GameLibrary": "1.0.0",
+          "MazeLibrary": "1.0.0",
+          "ShooterLibrary": "1.0.0"
+        },
+        "runtime": {
+          "Finding_Irno.dll": {}
+        }
+      },
+      "Enumerations/1.0.0": {
+        "runtime": {
+          "Enumerations.dll": {}
+        }
+      },
+      "FI_GameLibrary/1.0.0": {
+        "runtime": {
+          "FI_GameLibrary.dll": {}
+        }
+      },
+      "MazeLibrary/1.0.0": {
+        "runtime": {
+          "MazeLibrary.dll": {}
+        }
+      },
+      "ShooterLibrary/1.0.0": {
+        "runtime": {
+          "ShooterLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Finding_Irno/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Enumerations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FI_GameLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MazeLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShooterLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

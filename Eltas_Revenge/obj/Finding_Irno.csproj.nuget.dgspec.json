@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Finding_Irno\\Finding_Irno.csproj": {}
+  },
+  "projects": {
+    "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Enumerations\\Enumerations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Enumerations\\Enumerations.csproj",
+        "projectName": "Enumerations",
+        "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Enumerations\\Enumerations.csproj",
+        "packagesPath": "C:\\Users\\CrazyBubblez\\.nuget\\packages\\",
+        "outputPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Enumerations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CrazyBubblez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Finding_Irno\\Finding_Irno.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Finding_Irno\\Finding_Irno.csproj",
+        "projectName": "Finding_Irno",
+        "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Finding_Irno\\Finding_Irno.csproj",
+        "packagesPath": "C:\\Users\\CrazyBubblez\\.nuget\\packages\\",
+        "outputPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Finding_Irno\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CrazyBubblez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Enumerations\\Enumerations.csproj": {
+                "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\Enumerations\\Enumerations.csproj"
+              },
+              "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\FI_Game\\FI_GameLibrary.csproj": {
+                "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\FI_Game\\FI_GameLibrary.csproj"
+              },
+              "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\MazeLibrary\\MazeLibrary.csproj": {
+                "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\MazeLibrary\\MazeLibrary.csproj"
+              },
+              "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\ShooterLibrary\\ShooterLibrary.csproj": {
+                "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\ShooterLibrary\\ShooterLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\FI_Game\\FI_GameLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\FI_Game\\FI_GameLibrary.csproj",
+        "projectName": "FI_GameLibrary",
+        "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\FI_Game\\FI_GameLibrary.csproj",
+        "packagesPath": "C:\\Users\\CrazyBubblez\\.nuget\\packages\\",
+        "outputPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\FI_Game\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CrazyBubblez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\MazeLibrary\\MazeLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\MazeLibrary\\MazeLibrary.csproj",
+        "projectName": "MazeLibrary",
+        "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\MazeLibrary\\MazeLibrary.csproj",
+        "packagesPath": "C:\\Users\\CrazyBubblez\\.nuget\\packages\\",
+        "outputPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\MazeLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CrazyBubblez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\ShooterLibrary\\ShooterLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\ShooterLibrary\\ShooterLibrary.csproj",
+        "projectName": "ShooterLibrary",
+        "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\ShooterLibrary\\ShooterLibrary.csproj",
+        "packagesPath": "C:\\Users\\CrazyBubblez\\.nuget\\packages\\",
+        "outputPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\FindingIrno_FullGame\\ShooterLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CrazyBubblez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

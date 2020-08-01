@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EltasRevenge/1.0.0": {
+        "dependencies": {
+          "ER_GameLibrary": "1.0.0",
+          "ShooterLibrary": "1.0.0"
+        },
+        "runtime": {
+          "EltasRevenge.dll": {}
+        }
+      },
+      "ER_GameLibrary/1.0.0": {
+        "dependencies": {
+          "ShooterLibrary": "1.0.0"
+        },
+        "runtime": {
+          "ER_GameLibrary.dll": {}
+        }
+      },
+      "ShooterLibrary/1.0.0": {
+        "runtime": {
+          "ShooterLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EltasRevenge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ER_GameLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShooterLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

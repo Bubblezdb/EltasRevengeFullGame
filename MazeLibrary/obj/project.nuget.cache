@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "15hdSLAHzXjOOj5t1RBaYcvgWIP+3l5BieOVun5PxO4YlRebmRrzDMnrI6P9mq8EiX65Vcw/Jq7pyAIWKyfHKQ==",
+  "success": true,
+  "projectFilePath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\EltasRevengeFullGame\\MazeLibrary\\MazeLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CrazyBubblez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\CrazyBubblez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

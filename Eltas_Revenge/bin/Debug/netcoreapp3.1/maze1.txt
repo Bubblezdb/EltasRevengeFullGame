@@ -1,0 +1,37 @@
+﻿+---------------------------------------------------------------------+
+|      XXXXXXXX-X-XXXXX                                               |
+|      XXXXXXXXXXXXXXXX                              XXXXXXXXXXXX     |
+|       X XXXXXXXXXXXXX                             XXXXXXXXXXXXXX    |
+|       XXXXXXXXXXXXXX                                 XXXXXXXXXXXX   |
+|        XXXXXXXXXXXXXX                $                   XXXXXXXXX   |
+|                XXXXXX                                   XXXXXXXX    |
+|                XXXXXXX                                    XXXX      |
+|                XXXXXXXX             XXXXXXXXX                       |
+|               XXXXXXXXX            XXXXXXXXXXXXXXX                  |
+|             XXXXXXXXXXX          XXXXXXXXXXXX XXXXX                 |
+|             XXXXXXXXXX        XXXXXXXXXXXXXXXXXXXXX                 |
+|                  XXX          XXXXXXXXXXXXXXXXXXXXX                 |
+|                               X       XXXXXXXXXXXXX                 |
+|                                         XXXXXXXXX                   |
+|XXXXX         X                                               XXXXXX |
+|XXXXX                                                   XXXXXXX XXXX |
+|XXXXX      XXX        XXXXXXXXXX                       XXXXXXXXXXXXX |
+|XXXXXXX  XXXXXX       XXXXXXXXXXXX                     XXXXXXXXXXXXX |
+|XXXXXXXXXXXXXXX        XXXXXXXXXXXX                    XXXXXXXXXXXXX |
+|XXXXXXXXXXXXXX           XXXXXXXX X                     XXXXXXXXXXXX |
+| XXXXXXXXXXXX            XXXXXXXXXX                        XXXXXXXXXX|
+|  X  XXXXX XXX          XXXXXXXXXXX          XXX      XXXXXXXXXXXXXXX|
+|       XXXXXXX         XXXXXXXXXXXX      XXXXXXXXX    XXXXXXXXXXXXXXX|
+|       XXXXXX        XXXXXXXXXXXX       XXXXXXXXXXX                  |
+|       XXXXX       XXXXXXXXXXX          XXXXXXXXXXX                  |
+|                 XXXXXXXXXXXXX          XXXXXXXXXXXX                 |
+|                 XXXXXXXX XXXXXX              XXXXXXXX               |
+|                 XXXXXXXXXXXXXXX                 XXXXX               |
+|                  XXXXXXXXXXXX        XXXXXX      XXXX               |
+|                     XXXX           XXXXXXXX      XXXX               |
+|                                   XXXXXXXXXX     XXX         qq     |
+|                                   XXXXXXXXXXXXXXXXXX        qqqq    |
+|                                   XXXXXXXXXXXXXXXXX        qqqqqq   |
+|                                   XXXXXXXXXXXXXXXX         }    |   |
+|                                   XXXXXXXXXXXXX            +----+   |
++---------------------------------------------------------------------+
