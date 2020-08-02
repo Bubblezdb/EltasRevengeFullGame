@@ -46,13 +46,13 @@ namespace ER_GameLibrary
             WriteLine(@"                                              
                                                                                             
                                                                       .-'.  ':'-.
-                                                                    .''     ss   '.
-                              ...X.XXX.XX.X                        /               \
-                              .X.XXX,*%X&&#,X...**  .             ;. sssas        s ;
-                              ,*.X..X**,,*,(X.,X.../              |   ssssasss      |
-        '                  ,/X,,XXX.X/%&&%*//X.X/..*              ; '   ssa         ;
-                   X...XX..*XX//XX,,X*,****XX.XXX..XX.             \               /
-                         ............,.,,,.......                   ''     qqws  .'
+                                                                    .''     ss    '.
+                              ...X.XXX.XX.X                        /                \
+                              .X.XXX,*%X&&#,X...**  .             ;. sssas        s  ;
+                              ,*.X..X**,,*,(X.,X.../              |   ssssasss       |
+        '                  ,/X,,XXX.X/%&&%*//X.X/..*              ; '   ssa          ;
+                   X...XX..*XX//XX,,X*,****XX.XXX..XX.             \                /
+                         ............,.,,,.......                   ''     qqws   .'
                             ,,...,*****,,###(/*.                     '''-.___'_.-'
            .!                ****/(#(,**/(&X/,(
                              (**///#X&&&#X&#**.
@@ -130,7 +130,7 @@ SetCursorPosition(59, 29);ForegroundColor=ConsoleColor.DarkCyan;WriteLine(@"    
             SetCursorPosition(0, 39); ForegroundColor = ConsoleColor.White; WriteLine(@" %+------------------------------------------+     +------------------------------------------------------------------------------------------------------------------+%");
             SetCursorPosition(0, 40); ForegroundColor = ConsoleColor.White; WriteLine(@" %|           PLAYER STATS                   |     |                                                                                                                  |%");
             SetCursorPosition(0, 41); ForegroundColor = ConsoleColor.White; WriteLine(@" %|                                          |     |                                                                                                                  |%");
-            SetCursorPosition(0, 42); ForegroundColor = ConsoleColor.White; WriteLine($@" %|COINS:{player.Coin}                HEALTH:{player.Health}           |     |                                                                                                                  |%");
+            SetCursorPosition(0, 42); ForegroundColor = ConsoleColor.White; WriteLine($@" %|COINS:{player.Coin}                HEALTH:{player.Health}             |     |                                                                                                                  |%");
             SetCursorPosition(0, 43); ForegroundColor = ConsoleColor.White; WriteLine(@" %|                                          |     |                                                                                                                  |%");
             SetCursorPosition(0, 44); ForegroundColor = ConsoleColor.White; WriteLine($@" %|ATTACK:{player.Attack}               ARMOR:{player.Armor}             |     |                                                                                                                  |%");
             SetCursorPosition(0, 45); ForegroundColor = ConsoleColor.White; WriteLine(@" %|                                          |     |                                                                                                                  |%");

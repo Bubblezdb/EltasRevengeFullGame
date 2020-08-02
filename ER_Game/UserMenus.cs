@@ -210,5 +210,9 @@ namespace ER_GameLibrary
             SetCursorPosition(80, 15); //image//
             
         }
+        public void Shopkeepermenu(Player player)
+        {
+
+        }
     }
 }

@@ -117,14 +117,19 @@ namespace ER_GameLibrary
                 CurrentLayout.Draw();
                 CurrentPlayer.Draw();
                 HandlePlayerInput();
-               string elementAtPlayerPos = CurrentLayout.GetElementAt(CurrentPlayer.X, CurrentPlayer.Y);
+                string elementAtPlayerPos = CurrentLayout.GetElementAt(CurrentPlayer.X, CurrentPlayer.Y);
+
                 if (elementAtPlayerPos == "}" || elementAtPlayerPos == "}")// This is how to break the loop to exit
                 {
-                    break;// Go to ShopKeeper
+                    Shopkeeper();// go to the store
                 }
                 else if (elementAtPlayerPos == ">" )// This is how to break the loop to exit
                 {
-                    break;// Go to CHp converstaion
+                    // Go to CHp converstaion fightscene
+                }
+                else if (elementAtPlayerPos == "<")// This is how to break the loop to exit
+                {
+                    //go to space... Triggers planet jump or shooter
                 }
                 else if (elementAtPlayerPos == "$")
                 {
@@ -139,11 +144,14 @@ namespace ER_GameLibrary
             }
         }
 
-       
-                    public void Shopkeeper()
-                    {
+        public void Shopkeeper()
+        {
+            CurrentMenu.Shopkeepermenu(CurrentPlayer);
+        }
+        
 
-                    }
+       
+                
     }
 }
 
