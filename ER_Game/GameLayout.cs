@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using static System.Console;
 using System.IO;
+using System.Data;
 
 namespace ER_GameLibrary
 {
@@ -10,11 +11,12 @@ namespace ER_GameLibrary
     
     public class GameLayout
     {
-        private string[,] Grid;
+        public string[,] Grid;
         Random rand = new Random();
         private int Rows;
         private int Cols;
-       
+        public string element;
+        
 
         
         
@@ -35,7 +37,7 @@ namespace ER_GameLibrary
                 for (int x = 0; x < Cols; x++)
                 {
 
-                    string element = Grid[y, x];
+                    element = Grid[y, x];
                     SetCursorPosition(x, y);
 
 
@@ -47,20 +49,38 @@ namespace ER_GameLibrary
                     else if (element == "q")// roof
                     {
                         ForegroundColor = ConsoleColor.DarkMagenta;
+                        
                     }
-                    else if (element == "=")// Q= drop
+                    else if (element == "╬")// Q= drop
                     {
-                        ForegroundColor = ConsoleColor.DarkGray;
+                        ForegroundColor = ConsoleColor.DarkCyan;
                     }
                     else if (element == "X"|| element == "x")// Q= drop
                     {
                         ForegroundColor = ConsoleColor.DarkGreen;
+                    }
+                    else if (element == "$")// Q= drop
+                    {
+                        ForegroundColor = ConsoleColor.Yellow;
+                    }
+                    else if (element == "¥")// Q= drop
+                    {
+                        ForegroundColor = ConsoleColor.Gray;
+                    }
+                    else if (element == "☼")// Q= drop
+                    {
+                        ForegroundColor = ConsoleColor.Red;
+                    }
+                    else if (element == "?")// Q= drop
+                    {
+                        ForegroundColor = ConsoleColor.Blue;
                     }
                     else
                     {
                         ForegroundColor = ConsoleColor.White;
                     }
                     Write(element);
+                    
 
                 }
 
@@ -69,7 +89,7 @@ namespace ER_GameLibrary
 
         }
 
-        
+       
         public string GetElementAt(int x, int y)// returns a copy of whatever is in the grid at the x and y position
         {
             return Grid[y, x];
@@ -83,7 +103,8 @@ namespace ER_GameLibrary
                 return false;
             }
             //Check if the grid is walkable tile.
-            return Grid[y, x] == " " || Grid[y, x] == "{" || Grid[y, x] == "}" || Grid[y, x] == "=" || Grid[y, x] == "$"|| Grid[y, x] == "<" ||Grid[y, x] == ">";
+            return Grid[y, x] == " " || Grid[y, x] == "{" || Grid[y, x] == "}" || Grid[y, x] == "¥" 
+                || Grid[y, x] == "$" || Grid[y, x] == "<" || Grid[y, x] == ">" || Grid[y, x] == "╬" || Grid[y, x] == "☼"||Grid[y, x] == "╧"||Grid[y, x] == "?";
         }
     }
 

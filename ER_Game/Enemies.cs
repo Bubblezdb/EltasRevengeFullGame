@@ -10,11 +10,23 @@ namespace ER_GameLibrary
         public int Health;
         public int Armor;
         public int AGRO;
-
+        public int Saved;
+        public string Name;
+        
         // need attribute values
+        public Enemies(string name, int power, int health, int armor)
+        {
+            Name = name;
+            Power = power;
+            Health = health;
+            Armor = armor;
+            
+            
+        }
         public void VakirLowerMinion()
         {
             //TODO
+
         }
 
 
@@ -25,26 +37,7 @@ namespace ER_GameLibrary
         public void Audinians()
         {
             //TODO
-        }
-        public void Ocil()
-        {
-            //TODO
-        }
-        public void Thruul()
-        {
-            //TODO
-        }
-        public void Yilkir()
-        {
-            //TODO
-        }
-        public void Tanqin()
-        {
-            //TODO
-        }
-        public void Bhailmaith()
-        {
-            //TODO
+
         }
     }
    

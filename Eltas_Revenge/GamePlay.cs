@@ -20,6 +20,8 @@ namespace EltasRevenge
           
         
             GameScreenSize();
+            GameImages.TeamTitle();
+            Clear();
             GameImages.TitlePage();
             GameImages.MainMenu();
 

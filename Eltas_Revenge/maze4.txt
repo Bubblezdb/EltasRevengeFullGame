@@ -1,37 +1,37 @@
 ﻿+---------------------------------------------------------------------+
 |         XXXX                         XXXXXXXXXXXXXXXXXXXXXX         |
 |        XXXXX                        XXXXXXXXXXXXXXXXXXXXXXXX        |
-|      XXXXXXX                       XXXXX   XXXXXXXXXXXXXXXXX        |
+|      XXXXXXX           ?           XXXXX   XXXXXXXXXXXXXXXXX        |
 |      XXXXXXXX                      XXX         XXXXXXXXXXXX         |
 |      XXXXXXXXX     XXXXX           XXX              XXXXX           |
 |      XXXXXXXXXXXXXXXXXXX            XXX                             |
 |       XXXXXXXXXXXXXXXXXXX           XXXXXXXXXXXX                    |
 |        XXXXXXXXXXXXXXXXXX               XXXX                        |
-|         XXXXXX    XXXX                                              |
-|         XXXXXX                                                    XX|
-|           XXX          XXX                                   XXXXXXX|
+|         XXXXXX    XXXX                                          ?   |
+|   ?     XXXXXX                                                    XX|
+|           XXX          XXX           ?                       XXXXXXX|
 |                    XXXXXXXX              XXXX             XXXXXXXXXX|
-|               XXXXXXXXXXXXXXX            XXX            XXXXXXXXXXXX|
+|          ☼    XXXXXXXXXXXXXXX            XXX            XXXXXXXXXXXX|
 |      XXXX XXXXXXXXXXXXXXXXXXXX           XXXXXX         XXXXXXXXXXXX|
-|      XXXXXXXXXXXXXXXXXXXXXXXXXX         XXXXXXX         XXXXXXXXXXXX|
+|      XXXXXXXXXXXXXXXXXXXXXXXXXX      ?  XXXXXXX         XXXXXXXXXXXX|
 |     XXXXXXXXXXXXXXXXXXXXXXXXXXX      XXXXXXXXXX         XXXXXXXXXXXX|
 |    XXXXXXXXXX        XXXXXXXXXXX   XXXXXXXXXXXX          XXXXXXXXXXX|
 |    XXXXX                          XXXXXXXXXXXXX           XXXXXXXXXX|
 |     XXX                        XXXXXXXXXXXXXXX             XXXXXXXXX|
-|                                XXXX     XXXXXX              XXXXXXXX|
+|                                XXXX     XXXXXX         ╧    XXXXXXXX|
 |                                         XXXXXX                XXXXXX|
 |               XXXXXXXXXXXX              XXXXXX                XXXXXX|
-|            XXXXXXXXXXXXXXX              XXXX           XXXX   XXXXXX|
-|         XXXXXXXXXXXXXXXXXX              XXX           XXXXXXXXXXXXXX|
+|            XXXXXXXXXXXXXXX          ╬   XXXX           XXXX   XXXXXX|
+|  ?      XXXXXXXXXXXXXXXXXX              XXX           XXXXXXXXXXXXXX|
 |        XXXXXXXXXXXXXXXXXX               XXX           XXXXXXXXXXXXXX|
 |        XXXXXXXXX                        XXX            XXXXXXXXXXXXX|
 |         XXXXXXX                         XXX              XXXXXXXXXX |
 |          XXXXXXX                        XXX                         |
 |          XXXXXXX                        XXX            q            |
-|          XXXXXXX                        XXXX          qqq           |
+|          XXXXXXX   ¥                    XXXX          qqq           |
 |          XXXXXXX                        XXXX         qqqqq          |
-|         XXXXXXXXXXXXXXXXXXXXXXXX         XXX         }   |          |
-|         XXXXXXXXXXXXXXXXXXXXXXXXX        XXXX        +---+          |
+|    ?    XXXXXXXXXXXXXXXXXXXXXXXX      ?  XXX         }   +          |
+|         XXXXXXXXXXXXXXXXXXXXXXXXX        XXXX   $    +---+          |
 |          XXXXXXXXXXXXXXXXXXXXXXXX        XXX                        |
 |                      XXXXXXXXX           XXX                        |
 +---------------------------------------------------------------------+

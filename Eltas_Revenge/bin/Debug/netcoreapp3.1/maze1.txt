@@ -1,37 +1,37 @@
 ﻿+---------------------------------------------------------------------+
-|      XXXXXXXX-X-XXXXX                                               |
-|      XXXXXXXXXXXXXXXX                              XXXXXXXXXXXX     |
+|      XXXXXXXX+X+XXXXX                                               |
+|      XXXXXXXXXXXXXXXX                ?             XXXXXXXXXXXX     |
 |       X XXXXXXXXXXXXX                             XXXXXXXXXXXXXX    |
-|       XXXXXXXXXXXXXX                                 XXXXXXXXXXXX   |
-|        XXXXXXXXXXXXXX                                   XXXXXXXXX   |
-|                XXXXXX                                   XXXXXXXX    |
-|                XXXXXXX                                    XXXX      |
+|       XXXXXXXXXXXXXX   #        ?           ?        XXXXXXXXXXXX   |
+|        XXXXXXXXXXXXXX                  _____            XXXXXXXXX   |
+|                XXXXXX                 /_____\           XXXXXXXX    |
+|                XXXXXXX               /_______+}}>         XXXX      |
 |                XXXXXXXX             XXXXXXXXX                       |
 |               XXXXXXXXX            XXXXXXXXXXXXXXX                  |
-|             XXXXXXXXXXX          XXXXXXXXXXXX XXXXX                 |
-|             XXXXXXXXXX        XXXXXXXXXXXXXXXXXXXXX                 |
+|             XXXXXXXXXXX          XXXXXXXXXXXX                 ☼     |
+|     ╧       XXXXXXXXXX        XXXXXXXXXXXXXXXXXXXXX                 |
 |                  XXX          XXXXXXXXXXXXXXXXXXXXX                 |
-|                               X       XXXXXXXXXXXXX                 |
-|                                         XXXXXXXXX                   |
+|                               X       XXXXXXXXXXXXX            x    |
+|                          $              XXXXXXXXX                   |
 |XXXXX         X                                               XXXXXX |
 |XXXXX                                                   XXXXXXX XXXX |
 |XXXXX      XXX        XXXXXXXXXX                       XXXXXXXXXXXXX |
 |XXXXXXX  XXXXXX       XXXXXXXXXXXX                     XXXXXXXXXXXXX |
-|XXXXXXXXXXXXXXX        XXXXXXXXXXXX                    XXXXXXXXXXXXX |
+|XXXXXXXXXXXXXXX        XXXXXXXXXXXX           ¥        XXXXXXXXXXXXX |
 |XXXXXXXXXXXXXX           XXXXXXXX X                     XXXXXXXXXXXX |
 | XXXXXXXXXXXX            XXXXXXXXXX                        XXXXXXXXXX|
 |  X  XXXXX XXX          XXXXXXXXXXX          XXX      XXXXXXXXXXXXXXX|
 |       XXXXXXX         XXXXXXXXXXXX      XXXXXXXXX    XXXXXXXXXXXXXXX|
-|       XXXXXX        XXXXXXXXXXXX       XXXXXXXXXXX                  |
+| ╬     XXXXXX        XXXXXXXXXXXX       XXXXXXXXXXX                  |
 |       XXXXX       XXXXXXXXXXX          XXXXXXXXXXX                  |
 |                 XXXXXXXXXXXXX          XXXXXXXXXXXX                 |
 |                 XXXXXXXX XXXXXX              XXXXXXXX               |
-|                 XXXXXXXXXXXXXXX                 XXXXX               |
-|                  XXXXXXXXXXXX        XXXXXX      XXXX               |
+|       ?         XXXXXXXXXXXXXXX                 XXXXX               |
+|                  XXXXXXXXXXXX        XXXXXX      XXXX          x    |
 |                     XXXX           XXXXXXXX      XXXX               |
-|                                   XXXXXXXXXX     XXX         qq     |
-|                                   XXXXXXXXXXXXXXXXXX        qqqq    |
-|                                   XXXXXXXXXXXXXXXXX        qqqqqq   |
-|                                   XXXXXXXXXXXXXXXX         }    |   |
+|               ?                   XXXXXXXXXX     XXX         qq     |
+|                           ___     XXXXXXXXXXXXXXXXXX        qqqq    |
+|     ?                    +___+/+  XXXXXXXXXXXXXXXXX        qqqqqq   |
+|                       <{{__^___+  XXXXXXXXXXXXXXXX         }    +   |
 |                                   XXXXXXXXXXXXX            +----+   |
 +---------------------------------------------------------------------+

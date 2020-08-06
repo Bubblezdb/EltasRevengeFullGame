@@ -1,17 +1,17 @@
 ﻿+---------------------------------------------------------------------+
-|                                                                     |
+|                                              ?                      |
 |                                                                     |
 |            XXXXXXXXX                                                |
-|        XXXXXXXXXXXXXXXX          XXXXXXX                            |
+|        XXXXXXXXXXXXXXXX   ╧      XXXXXXX                ?           |
 |        XXXXX      XXXXX       XXXXXXXXXXXXXX                        |
 |        XXXXX                  XXXXXXXXXXXXXXXXX                     |
 |         XXXX                  XXXXXXXXXXXXXXXXXX                    |
 |        XXX                    XXXXXXXXXXXXXXXXXXX                   |
-|        XXX                 XXXXXXXXXXXXXXXXXXXXXXXX                 |
+|        XXX                 XXXXXXXXXXXXXXXXXXXXXXXX        ¥        |
 |        XX              XXXXXXXXXXXXXX     XXXXXXXXX                 |
-|                       XXXXXXXXXXXXXXX          XXXX                 |
+|                       XXXXXXXXXXXXXXX  ☼       XXXX                 |
 |                       XXXXXXXXXXXXXXXXX                      XXXXX  |
-|                        XXXXXXXXXXXXXXXXXXXXX                 XXXXXXX|
+|    ? ╬                 XXXXXXXXXXXXXXXXXXXXX                 XXXXXXX|
 |                         XXXXXXXXXXXXXXXXXXXXXXX              XXXXXXX|
 |                         XXXXXXXXXXXXXXXXXXXXXXX               XXXXXX|
 |                             XXXXXXXX XXXXXXXXXXX              XXXXXX|
@@ -20,17 +20,17 @@
 |                XXXXXX                                      XXXXXXXXX|
 |                   XXX          XXXX                          XXXXXXX|
 |                               XXXXXX                                |
-|                                XXXXXXX                              |
-|                                  XXXXXX                             |
+|                                XXXXXXX                         ?    |
+|               $                  XXXXXX                             |
 |      q                          XXXXXXXX            XXX             |
 |     qqq            XXXXXXXXXXXXXXXXXXXXX           XXXXXXXX XX      |
 |    +---+           XXXXXXXXXXXXXXXXXXX              XXXXXXXXXXX     |
-|    |   {             XXX  XXXXXXXXXXXXX             XXXXXXXXXXXX    |
+|    |   {             XXX  XXXXXXXXXXXXX    ?        XXXXXXXXXXXX    |
 |    +---+                   XXXXXXXXXXXX             XXXXXXXXXXXXX   |
 |                             XXXXXXXXXX              XXXXXXXXXXXXX   |
 |                         XXXXXXXXXXXXXXXXX           XXXXXXXXXXXXXX  |
-|                      XXXXXXXXXXXXXXXXXXXXXXXXX        XXXXXXXXXXXXXX|
-|        XXXXXX        XXXXXXXXXXXXXXXXXXXXXXXXXX      XXXXXXXXXXXXXXX|
+|                  ?   XXXXXXXXXXXXXXXXXXXXXXXXX        XXXXXXXXXXXXXX|
+|  ?     XXXXXX        XXXXXXXXXXXXXXXXXXXXXXXXXX      XXXXXXXXXXXXXXX|
 |       XXXXXXXX       XXXXXXXXXXXXXXXXXXXXXXXXXX      XXXXXXXXXXXXXXX|
 |      XXXXXXXXXX       XXXXXXXXXXXXXXXXXXXXXXXXX       XXXXXXXXXXXXXX|
 |    XXXXXXXXXXX        X XXXXXXXXXXXXXXXXXXXXXXX       XXXXXXXXXXXXXX|
