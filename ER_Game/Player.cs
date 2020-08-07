@@ -15,7 +15,8 @@ namespace ER_GameLibrary
         public int Attack = 25;
         public int Coin = 1000;
         public int Rejuvenation = 5;
-        public int[] items;// item list
+        public int Junk = 0;
+       
        
         public int X { get; set; }
         public int Y { get; set; }

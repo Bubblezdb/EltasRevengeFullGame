@@ -57,8 +57,17 @@ namespace ER_GameLibrary
                 case ConsoleKey.K:
                     CurrentImages.HelpMenuClear();
                     break;
-                case ConsoleKey.Escape:
-                    CurrentMenu.MainMenu(CurrentImages);
+                case ConsoleKey.F1:
+                    Clear();
+                    CurrentImages.TitlePage();
+                    CurrentImages.MainMenu();
+
+                    bool mainMenu = true;
+                    while (mainMenu)
+                    {
+                        SetCursorPosition(113, 34);
+                        mainMenu = CurrentMenu.MainMenu(CurrentImages);
+                    }
                     break;
                 //shooter keys.....if they are can be used
 
@@ -114,6 +123,7 @@ namespace ER_GameLibrary
 
 
             Clear();
+            SetCursorPosition(2, 38); ForegroundColor = ConsoleColor.White; WriteLine(@"Press (J) for Help Menu, (F1) to exit game");
             if (chap2 == true && chap3 == true && chap4 == true && chap5 == true)
             {
                 // once the player beats the final boss, the game ends with the following methods.
@@ -136,10 +146,11 @@ namespace ER_GameLibrary
 
                 
                 if (elementAtPlayerPos == "{" || elementAtPlayerPos == "}")//Triggers shop event
-                {
+                { 
+                    CurrentDialogue.Shop();
                     ConsoleKeyInfo keyInfo = ReadKey(true);
                     ConsoleKey key; key = keyInfo.Key;
-                    CurrentDialogue.Shop();
+                    
 
                     if (key == ConsoleKey.Y)
                     {
@@ -353,8 +364,11 @@ namespace ER_GameLibrary
 
         public void Shopkeeper(Player player, GameImages images)
         {
-            //CurrentMenu.Shopkeepermenu(CurrentPlayer);
-            CurrentImages.ShopKeeperImage(CurrentDialogue);
+            
+            CurrentImages.ShopKeeperImage();
+            CurrentMenu.ShopkeeperMethod(CurrentPlayer, CurrentImages);
+            
+            
         }
         public void RandomEncounters()
         {
@@ -365,16 +379,34 @@ namespace ER_GameLibrary
                     int p = rand.Next(0, 5);
                     int h = rand.Next(15, 50);
                     int a = rand.Next(2, 6);
+                    int j = rand.Next(0, 4);
+                    Clear();
+                    CurrentDialogue.Encounter();
                     Enemies enemies = new Enemies(name, p, h, a);
                     ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, enemies, CurrentMenu);
+                    CurrentPlayer.Junk += j;
+                    SetCursorPosition(58, 44); ForegroundColor = ConsoleColor.White;WriteLine($"Before you walk away, you realize that you can make a profit selling their clothes and items!");
+                    SetCursorPosition(58, 45); ForegroundColor = ConsoleColor.White; WriteLine($"You pick up {j} junk items!");
+                    SetCursorPosition(54, 46); WriteLine("Press any key to continue...");
+                    ReadKey();
+                    Clear();
                     break;
                 case 1:
                     name = "Upper Minion";
                      p = rand.Next(2, 10);
                     h = rand.Next(20, 70);
                      a = rand.Next(5, 9);
+                    j = rand.Next(0, 8);
+                    Clear();
+                    CurrentDialogue.Encounter();
                     Enemies RAM = new Enemies(name, p, h, a);
                     ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, RAM, CurrentMenu);
+                    CurrentPlayer.Junk += j;
+                    SetCursorPosition(58, 44); ForegroundColor = ConsoleColor.White;WriteLine($"Before you walk away, you realize that you can make a profit selling their clothes and items!");
+                    SetCursorPosition(58, 45); ForegroundColor = ConsoleColor.White;WriteLine($"You pick up {j} junk items!");
+                    SetCursorPosition(54, 46); WriteLine("Press any key to continue...");
+                    ReadKey();
+                    Clear();
                     break;
             }
           

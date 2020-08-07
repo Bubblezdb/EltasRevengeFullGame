@@ -4,7 +4,7 @@
 |               XXXXXXXXXXX           \o/                X            |
 |             XXXXXXXXXXXXX           /+\/               XXX          |
 |             +           +            |            XXXXXXXXXX        |
-|             |    +-+    |            +           XXXXXXXXXXXXX      |
+|     ?       |    +-+    |            +           XXXXXXXXXXXXX      |
 |          WW +-----------+WWW                    XXXXXXXXXXXXXX      |
 |         WWW               WWW                        ___     +  \\  |
 |                                                     +___+/+  |  /o+ |

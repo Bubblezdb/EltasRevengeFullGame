@@ -13,7 +13,7 @@ namespace ER_GameLibrary
             foreach (char character in sentence)
             {
                 Write(character);
-                Thread.Sleep(40); 
+                Thread.Sleep(20); 
             }
         }
         public void Loadingpage()
@@ -45,9 +45,18 @@ namespace ER_GameLibrary
             SetCursorPosition(58, 41); ForegroundColor = ConsoleColor.White; PrintbyChar($"Those goons are getting away with Irno!!!");
             SetCursorPosition(58, 42); ForegroundColor = ConsoleColor.White; PrintbyChar($"Quick, you have to chase after them!!!");
             SetCursorPosition(54, 43); WriteLine("Press any key to continue...");
+            ReadKey();
         }
        
-
+        public void Encounter()
+        {
+            SetCursorPosition(7, 5); ForegroundColor = ConsoleColor.White; PrintbyChar("As you search the surrounding area for Irno, you spot a Audinian goon!");
+            SetCursorPosition(7, 6); ForegroundColor = ConsoleColor.White; PrintbyChar("Maybe he knows where Irno is!");
+            SetCursorPosition(7, 7); ForegroundColor = ConsoleColor.White; PrintbyChar("You won't get the goon to talk easily!");
+            SetCursorPosition(7, 8); ForegroundColor = ConsoleColor.White; PrintbyChar("Maybe smacking them around will get that goon to talk!");
+            SetCursorPosition(54, 43); WriteLine("Press any key to continue...");
+            ReadKey();
+        }
         public void Chapter1()
         {
             Clear();
@@ -94,7 +103,7 @@ namespace ER_GameLibrary
             SetCursorPosition(80, 19); ForegroundColor = ConsoleColor.White; PrintbyChar("Press (J) to activate the help screen");
             SetCursorPosition(80, 20); ForegroundColor = ConsoleColor.White; PrintbyChar("Press any key to continue...");
             ReadKey();
-            Clear();
+            
         }
         public void AfterBossFight()
         {

@@ -171,7 +171,7 @@ namespace ER_GameLibrary
             CursorVisible = false;
             SetCursorPosition(72, 20); ForegroundColor = ConsoleColor.White; WriteLine(@"##########################################################################################");
             SetCursorPosition(72, 21); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"           Symbols                  #                   HotKeys                        ");
-            SetCursorPosition(72, 22); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" ╬ Health         ? Encounter       #  J key: Help Menu          ESC Key: Exit         ");
+            SetCursorPosition(72, 22); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" ╬ Health         ? Encounter       #  J key: Help Menu          F1 Key: Exit         ");
             SetCursorPosition(72, 23); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" $ Coin           ▄ Beets           #                                                  ");
             SetCursorPosition(72, 24); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" ¥ Armor          ╧ Attack          #  UpArrow: Move up        DownArrow: Move Down    ");
             SetCursorPosition(72, 25); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" < or > Event    { or } ShopKeeper  #  LeftArrow: Move Left    RightArrow: Move Right  ");
@@ -248,8 +248,8 @@ namespace ER_GameLibrary
         {
 
             CursorVisible = false;
-
-            SetCursorPosition(52, 39); ForegroundColor = ConsoleColor.White; WriteLine(@" %+-----------------------------------------------------------------------------------------------------+%");
+            
+            SetCursorPosition(52, 39); ForegroundColor = ConsoleColor.White; WriteLine(@"%+-----------------------------------------------------------------------------------------------------+%");
             SetCursorPosition(52, 40); ForegroundColor = ConsoleColor.White; WriteLine(@"                                                                                                     ");
             SetCursorPosition(52, 41); ForegroundColor = ConsoleColor.White; WriteLine(@"                                                                                                     ");
             SetCursorPosition(52, 42); ForegroundColor = ConsoleColor.White; WriteLine(@"                                                                                                      ");
@@ -361,12 +361,12 @@ namespace ER_GameLibrary
                                                 |_______)___/ \_||_|\____|_|_| |_|\_|| |
                                                                                  (_____|"); Thread.Sleep(300); dialogue.Loadingpage(); Clear();
         }
-        public void ShopKeeperImage(GameDialogue dialogue)
+        public void ShopKeeperImage()
         {
             //transition page
             Clear();
             CursorVisible = false;
-            SetCursorPosition(80, 10);
+            SetCursorPosition(80, 8);
             WriteLine(@"
                                                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#                 
                                                 ((((((      ((((((      (      ((((((      ((((((               
@@ -386,7 +386,27 @@ namespace ER_GameLibrary
                                                .,,,,*%%%%%%%%%%%%%%%%%%,,,,,,,,,,%          %,,,,               
                                                .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,% %%       %,,,,               
                                                .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,%          %,,,,               
-                                               .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,%          %,,,,               ");
+                                               .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,%          %,,,,             
+                                                      |=====================================|
+                                                      | S:  Sword         (500 Krubels)     |
+                                                      |                                     |
+                                                      | D:  Dual Pistols  (750 Krubels)     |
+                                                      |                                     |
+                                                      | G: Shotgun       (1000 Krubels)     |
+                                                      |                                     |
+                                                      | B:  Beets         (10 Krubels)      |
+                                                      |                                     |
+                                                      | M: Sell Junk                        |
+                                                      |=====================================|
+
+
+
+
+
+            ");
+
+
+
         }
            
                                                

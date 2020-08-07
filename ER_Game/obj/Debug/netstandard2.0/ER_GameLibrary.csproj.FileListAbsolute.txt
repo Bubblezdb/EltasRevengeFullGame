@@ -6,3 +6,4 @@ D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\ER_Game\obj\Debug\net
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\ER_Game\obj\Debug\netstandard2.0\ER_GameLibrary.csproj.CoreCompileInputs.cache
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\ER_Game\obj\Debug\netstandard2.0\ER_GameLibrary.dll
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\ER_Game\obj\Debug\netstandard2.0\ER_GameLibrary.pdb
+D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\ER_Game\obj\Debug\netstandard2.0\ER_GameLibrary.csprojAssemblyReference.cache
