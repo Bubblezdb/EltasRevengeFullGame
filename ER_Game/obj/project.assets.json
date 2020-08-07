@@ -25,16 +25,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "ShooterLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/ShooterLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ShooterLibrary.dll": {}
-        }
       }
     }
   },
@@ -182,17 +172,11 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "ShooterLibrary/1.0.0": {
-      "type": "project",
-      "path": "../ShooterLibrary/ShooterLibrary.csproj",
-      "msbuildProject": "../ShooterLibrary/ShooterLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3",
-      "ShooterLibrary >= 1.0.0"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -220,11 +204,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\EltasRevengeFullGame\\ShooterLibrary\\ShooterLibrary.csproj": {
-              "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\EltasRevengeFullGame\\ShooterLibrary\\ShooterLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

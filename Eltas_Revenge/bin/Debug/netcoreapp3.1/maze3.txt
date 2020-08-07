@@ -3,13 +3,13 @@
 |                                                                     |
 |            XXXXXXXXX                                                |
 |        XXXXXXXXXXXXXXXX   ╧      XXXXXXX                ?           |
-|        XXXXX      XXXXX       XXXXXXXXXXXXXX                        |
-|        XXXXX                  XXXXXXXXXXXXXXXXX                     |
-|         XXXX                  XXXXXXXXXXXXXXXXXX                    |
+|        XXXXX      XXXXX       XXXXXXXXXXXXXX                ____    |
+|        XXXXX                  XXXXXXXXXXXXXXXXX            +___+/+  |
+|         XXXX                  XXXXXXXXXXXXXXXXXX        <[[__^___|  |
 |        XXX                    XXXXXXXXXXXXXXXXXXX                   |
 |        XXX                 XXXXXXXXXXXXXXXXXXXXXXXX        ¥        |
 |        XX              XXXXXXXXXXXXXX     XXXXXXXXX                 |
-|                       XXXXXXXXXXXXXXX  ☼       XXXX                 |
+|                       XXXXXXXXXXXXXXX  ▄       XXXX                 |
 |                       XXXXXXXXXXXXXXXXX                      XXXXX  |
 |    ? ╬                 XXXXXXXXXXXXXXXXXXXXX                 XXXXXXX|
 |                         XXXXXXXXXXXXXXXXXXXXXXX              XXXXXXX|
@@ -20,9 +20,9 @@
 |                XXXXXX                                      XXXXXXXXX|
 |                   XXX          XXXX                          XXXXXXX|
 |                               XXXXXX                                |
-|                                XXXXXXX                         ?    |
-|               $                  XXXXXX                             |
-|      q                          XXXXXXXX            XXX             |
+|                                XXXXXXX        _____            ?    |
+|               $                  XXXXXX      /_____\                |
+|      q                          XXXXXXXX    /_______+]]>            |
 |     qqq            XXXXXXXXXXXXXXXXXXXXX           XXXXXXXX XX      |
 |    +---+           XXXXXXXXXXXXXXXXXXX              XXXXXXXXXXX     |
 |    |   {             XXX  XXXXXXXXXXXXX    ?        XXXXXXXXXXXX    |

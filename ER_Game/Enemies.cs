@@ -9,8 +9,6 @@ namespace ER_GameLibrary
         public int Power;
         public int Health;
         public int Armor;
-        public int AGRO;
-        public int Saved;
         public string Name;
         
         // need attribute values
@@ -23,22 +21,7 @@ namespace ER_GameLibrary
             
             
         }
-        public void VakirLowerMinion()
-        {
-            //TODO
-
-        }
-
-
-        public void VIkirUpperMInion()
-        {
-            //TODO
-        }
-        public void Audinians()
-        {
-            //TODO
-
-        }
+        
     }
    
 

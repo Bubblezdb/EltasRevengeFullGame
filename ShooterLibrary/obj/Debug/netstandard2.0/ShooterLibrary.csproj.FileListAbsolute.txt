@@ -15,4 +15,3 @@ D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\ShooterLibrary\obj\De
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\ShooterLibrary\obj\Debug\netstandard2.0\ShooterLibrary.csproj.CoreCompileInputs.cache
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\ShooterLibrary\obj\Debug\netstandard2.0\ShooterLibrary.dll
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\ShooterLibrary\obj\Debug\netstandard2.0\ShooterLibrary.pdb
-D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\ShooterLibrary\obj\Debug\netstandard2.0\ShooterLibrary.csprojAssemblyReference.cache

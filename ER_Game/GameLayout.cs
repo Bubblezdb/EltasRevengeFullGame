@@ -7,8 +7,8 @@ using System.Data;
 
 namespace ER_GameLibrary
 {
-    
-    
+    //tutorial presented by Michael Hadley on youtube: ITP SP20: Creating an Explorable Maze in a C# Console Game 
+
     public class GameLayout
     {
         public string[,] Grid;
@@ -16,11 +16,6 @@ namespace ER_GameLibrary
         private int Rows;
         private int Cols;
         public string element;
-        
-
-        
-        
-
 
         public GameLayout(string[,] grid)
         {
@@ -44,7 +39,7 @@ namespace ER_GameLibrary
 
                     if (element == "}" || element == "{")//X = exit
                     {
-                        ForegroundColor = ConsoleColor.DarkCyan;
+                        ForegroundColor = ConsoleColor.Magenta;
                     }
                     else if (element == "q")// roof
                     {
@@ -67,13 +62,13 @@ namespace ER_GameLibrary
                     {
                         ForegroundColor = ConsoleColor.Gray;
                     }
-                    else if (element == "☼")// Q= drop
+                    else if (element == "▄")// Q= drop
                     {
                         ForegroundColor = ConsoleColor.Red;
                     }
                     else if (element == "?")// Q= drop
                     {
-                        ForegroundColor = ConsoleColor.Blue;
+                        ForegroundColor = ConsoleColor.Black;
                     }
                     else
                     {
@@ -104,7 +99,7 @@ namespace ER_GameLibrary
             }
             //Check if the grid is walkable tile.
             return Grid[y, x] == " " || Grid[y, x] == "{" || Grid[y, x] == "}" || Grid[y, x] == "¥" 
-                || Grid[y, x] == "$" || Grid[y, x] == "<" || Grid[y, x] == ">" || Grid[y, x] == "╬" || Grid[y, x] == "☼"||Grid[y, x] == "╧"||Grid[y, x] == "?";
+                || Grid[y, x] == "$" || Grid[y, x] == "<" || Grid[y, x] == ">" || Grid[y, x] == "╬" || Grid[y, x] == "▄"||Grid[y, x] == "╧"||Grid[y, x] == "?";
         }
     }
 

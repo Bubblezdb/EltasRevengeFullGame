@@ -6,8 +6,8 @@ namespace ER_GameLibrary
     public class UserMenus
     {
         Random rand = new Random();
-        public Player CurrentPlayer;
-        Chapters Chapters = new Chapters();//istantiate the chapters here?
+        
+        Chapters Chapters = new Chapters();
 
         public bool MainMenu(GameImages images)// Main Menu
         {
@@ -16,8 +16,8 @@ namespace ER_GameLibrary
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        CurrentPlayer = new Player(2, 2);
-                        Chapters.Chapter(CurrentPlayer, images);
+                        
+                        Chapters.SpaceTravel();
                         return true;
 
                     case "2":
@@ -38,38 +38,23 @@ namespace ER_GameLibrary
 
         }
 
-        public void ShowMercyOption(Enemies enemy)
-        {
-            SetCursorPosition(54, 40); WriteLine("Enter Y to spare him, Enter N to kill him.");
-            int saveCount = 1;
-            ConsoleKeyInfo keyInfo = ReadKey(true);
-            ConsoleKey key; key = keyInfo.Key;
-            if (key == ConsoleKey.Y)//fix this
-            {
-                SetCursorPosition(54, 40); WriteLine($"{enemy.Name}, I don't want to see your face again, run and tell your boys that I'm coming");
-
-                enemy.Saved += saveCount;
-
-
-            }
-            if (key == ConsoleKey.N)//fix this
-            {
-                WriteLine("Enter a catchphrase before you kill ");
-                string catchphrase = Console.ReadLine();
-                WriteLine($"{enemy.Name}:" + catchphrase);
-            }
-        }
+      
 
 
         public void FightKeyHandling(Player player, Enemies enemy, GameImages images)
         {
+            
+            
+            
 
             ConsoleKeyInfo keyInfo = ReadKey(true);
             ConsoleKey key; key = keyInfo.Key;
+
+           
             switch (key)
             {
-                case ConsoleKey.A:
-                    //Attack
+                case ConsoleKey.A://Attack
+                    
                     int damage = enemy.Power - player.Armor;
                     int attack = rand.Next(0, player.Attack) + rand.Next(1, 4);//randomized damage value
                     if (damage < 0)
@@ -86,14 +71,12 @@ namespace ER_GameLibrary
                         enemy.Health = 0;
                     images.AttributeMenu(player);
                     images.EnemyStats(enemy);
-                    //fix!!!!!
-
 
                     break;
 
 
-                case ConsoleKey.D:
-                    //Defend
+                case ConsoleKey.D://Defend
+                    
                     SetCursorPosition(54, 40); WriteLine($"Elta waits for {enemy.Name} to attack, but swiftly blocks only taking a");
                     SetCursorPosition(54, 41); WriteLine($" small amount of damage and dealing heavy damage to Ocil with his gaurd down:");
                     int defensedamage = (enemy.Power / 2) - player.Armor;
@@ -142,24 +125,31 @@ namespace ER_GameLibrary
             }
         }
 
-        public void StoryFightMenu(Player player, Enemies enemy, GameImages images)
+
+        public void StoryFightMenu(Player player, Enemies enemy, GameImages images,GameDialogue dialogue)
         {
             CursorVisible = false;
         restart:
+            
 
             while (player.Health > 0 && enemy.Health> 0)
             {
+                
                 DrawFightMenu(player, enemy, images);
+                SetCursorPosition(54, 40); WriteLine($" Press (A) to attack, (D) to Defend, (H) to heal....");
+                ReadKey();
+                SetCursorPosition(54, 40); WriteLine($"                                                                                      ");
                 FightKeyHandling(player, enemy, images);
+                
                 ReadKey();
 
             }
             if (enemy.Health == 0)
             {
                 DrawFightMenu(player, enemy, images);
-                Kill(player, enemy);
+                Kill(player, enemy,images, dialogue);
             }
-            if (player.Life > 0 && player.Health == 0)
+            else if (player.Life > 0 && player.Health == 0)
             {
 
                 DrawFightMenu(player, enemy, images);
@@ -184,13 +174,13 @@ namespace ER_GameLibrary
                         }
                         break;
                     default:
-                        Death(enemy, images);
+                        Death(enemy, images,dialogue);
                         break;
                 }
             }
             else if (player.Life == 0 && player.Health == 0)
             {
-                Death(enemy, images);
+                Death(enemy, images, dialogue);
 
             }
         }
@@ -203,14 +193,16 @@ namespace ER_GameLibrary
             public void DrawFightMenu(Player player, Enemies enemy, GameImages images)
         {
             Clear();
+            images.FightImage();
             images.EnemyStats(enemy);
             images.ActionMenu(player);
             images.BossFightMenu();
             images.AttributeMenu(player);
             
+            
         }
     
-        public void Death(Enemies enemy, GameImages images)
+        public void Death(Enemies enemy, GameImages images, GameDialogue dialogue)// when player dies
         {
             Clear();
             images.Death();
@@ -218,9 +210,8 @@ namespace ER_GameLibrary
             SetCursorPosition(54, 41); WriteLine($"Feeling tired, you let your guard down {enemy.Name} deals the final blow. Dude you are dead!");
             SetCursorPosition(54, 42); WriteLine("Press any key to continue...");
             ReadKey();
-            // death code
             Clear();
-            //go back to start
+            //go back to start menu
             images.TitlePage();
             images.MainMenu();
 
@@ -228,20 +219,29 @@ namespace ER_GameLibrary
             while (mainMenu)
             {
                 SetCursorPosition(113, 34);
-                mainMenu = MainMenu(images);// verified success aug 1 goes to USerMenus
+                mainMenu = MainMenu(images);
             }
 
         }
        
        
-        public void Kill(Player player, Enemies enemy)
+        public void Kill(Player player, Enemies enemy, GameImages images, GameDialogue dialogue)// when player wins
         {
-            int c = rand.Next(0, 15);
+            
+            int c = rand.Next(0, 45);
             SetCursorPosition(54, 40); Console.WriteLine($"As you stand vitorious over {enemy.Name}!");
             SetCursorPosition(54, 41); WriteLine($"You get ready to leave and spot gold coins around {enemy.Name}! You pick them up.");
             SetCursorPosition(54, 42); WriteLine("Press any key to continue...");
-            player.Coin += c;
             ReadKey();
+            
+            player.Coin += c;
+            
         }
+        public void RandomEncounters()
+        {
+            
+        }
+         
+
     }
 }

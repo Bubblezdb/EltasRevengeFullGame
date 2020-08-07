@@ -5,24 +5,11 @@
       "ER_GameLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "ShooterLibrary": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/ER_GameLibrary.dll": {}
         },
         "runtime": {
           "bin/placeholder/ER_GameLibrary.dll": {}
-        }
-      },
-      "ShooterLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/ShooterLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ShooterLibrary.dll": {}
         }
       }
     }
@@ -32,17 +19,11 @@
       "type": "project",
       "path": "../ER_Game/ER_GameLibrary.csproj",
       "msbuildProject": "../ER_Game/ER_GameLibrary.csproj"
-    },
-    "ShooterLibrary/1.0.0": {
-      "type": "project",
-      "path": "../ShooterLibrary/ShooterLibrary.csproj",
-      "msbuildProject": "../ShooterLibrary/ShooterLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ER_GameLibrary >= 1.0.0",
-      "ShooterLibrary >= 1.0.0"
+      "ER_GameLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -73,9 +54,6 @@
           "projectReferences": {
             "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\EltasRevengeFullGame\\ER_Game\\ER_GameLibrary.csproj": {
               "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\EltasRevengeFullGame\\ER_Game\\ER_GameLibrary.csproj"
-            },
-            "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\EltasRevengeFullGame\\ShooterLibrary\\ShooterLibrary.csproj": {
-              "projectPath": "D:\\Class_stuff\\ISTA 220\\TEAM Projects\\EltasRevengeFullGame\\ShooterLibrary\\ShooterLibrary.csproj"
             }
           }
         }

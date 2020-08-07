@@ -5,10 +5,10 @@
 |       XXXXXXXXXXXXXX   #        ?           ?        XXXXXXXXXXXX   |
 |        XXXXXXXXXXXXXX                  _____            XXXXXXXXX   |
 |                XXXXXX                 /_____\           XXXXXXXX    |
-|                XXXXXXX               /_______+}}>         XXXX      |
+|                XXXXXXX               /_______+]]>         XXXX      |
 |                XXXXXXXX             XXXXXXXXX                       |
 |               XXXXXXXXX            XXXXXXXXXXXXXXX                  |
-|             XXXXXXXXXXX          XXXXXXXXXXXX                 ☼     |
+|             XXXXXXXXXXX          XXXXXXXXXXXX                 ▄     |
 |     ╧       XXXXXXXXXX        XXXXXXXXXXXXXXXXXXXXX                 |
 |                  XXX          XXXXXXXXXXXXXXXXXXXXX                 |
 |                               X       XXXXXXXXXXXXX            x    |
@@ -32,6 +32,6 @@
 |               ?                   XXXXXXXXXX     XXX         qq     |
 |                           ___     XXXXXXXXXXXXXXXXXX        qqqq    |
 |     ?                    +___+/+  XXXXXXXXXXXXXXXXX        qqqqqq   |
-|                       <{{__^___+  XXXXXXXXXXXXXXXX         }    +   |
+|                       <[[__^___+  XXXXXXXXXXXXXXXX         }    +   |
 |                                   XXXXXXXXXXXXX            +----+   |
 +---------------------------------------------------------------------+

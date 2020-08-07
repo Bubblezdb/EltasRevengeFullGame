@@ -2,14 +2,14 @@
 |                                       XXXXXXXXXXXX                  |
 |        XXXXXXXXXX                     XXXXXXXXXXX                   |
 |       XXXXXXXXXXX                                       ?           |
-|      XXXXXXXXXXXXX       XXXXXXXX                                   |
-|      XXX XXXXXXXXX      XXXXXXXXXXXXXXX                             |
-|      XXXX XXXXXXXXX      X XXXXXXXXXXXX       XXXXXXXXXXXXXX        |
+|      XXXXXXXXXXXXX       XXXXXXXX                          ___      |
+|      XXX XXXXXXXXX      XXXXXXXXXXXXXXX                   +___+/+   |
+|      XXXX XXXXXXXXX      X XXXXXXXXXXXX                <[[__^___|   |
 |       XXXX XXXXXXXX     XXXXXXXX XXXXXX       XXXXXXXX XXXXXX       |
 |             XXXXX    XXXXXXXXXXXXXXXXXXX       XXXXXXXXXXXX X       |
 |             XXXX    XX XXXXXXXXXXXXXXXXX   ?   XXXXXXX X XXXX       |
 |             X       XXXXXXXXXXXXX XXXXXX       XXXXXXXXXXXXX        |
-|    ?                XXXXXXXXX  XXXXXXXXX      XXXXX XXXXXX    ☼     |
+|    ?                XXXXXXXXX  XXXXXXXXX      XXXXX XXXXXX    ▄     |
 |                     X XXXXXX    XXX X XX      XXXXXXXX              |
 |                      XXXXXXX     XXXXXXX      XXXXXXX               |
 |                      X XXXXX     X XXXXX     XXXXXXXX               |
@@ -30,8 +30,9 @@ XXXXXXX   XXXXXXXXXXXXXXXXX    qqqqqq XXXXXXXXXX     ╧   XXXXX XXXXXXX|
 |XXXXXXXX       XXXXXX XXXXX          XXXXXXXX                XXXXXXXX|
 |XXXXXXXX       XXXXXXXXXXX                                ?  XXXXXXXX|
 |XXXXXX          XXXXXXXXX                        XXX                 |
-|XXXXXX  ?                              ¥      XXXXXXX                |
-|XXXXXXX                                     XXXXXXXXX                |
-|XXXXXXX    ?                               XXXXXXXXXXXXXXX           |
+|XXXXXX  ?                    _____     ¥      XXXXXXX                |
+|XXXXXXX                     /_____\         XXXXXXXXX                |
+|XXXXXXX    ?               /_______+]]>    XXXXXXXXXXXXXXX           |
 |XXXXXXXX              ?                    XXXXXXXXXXXXXXXX          |
 +---------------------------------------------------------------------+
+

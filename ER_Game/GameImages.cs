@@ -11,7 +11,7 @@ namespace ER_GameLibrary
     public class GameImages
     {
 
-        
+
         public static string[,] ParseFileToArray(string filePath)// loads txt files... this is good
         {
             string[] lines = File.ReadAllLines(filePath);
@@ -37,7 +37,6 @@ namespace ER_GameLibrary
             // good to here
         }
 
-
         public void TitlePage()// works
         {
 
@@ -51,8 +50,8 @@ namespace ER_GameLibrary
                               ...X.XXX.XX.X                        /                \
                               .X.XXX,*%X&&#,X...**  .             ;. sssas        s  ;
                               ,*.X..X**,,*,(X.,X.../              |   ssssasss       |
-        '                  ,/X,,XXX.X/%&&%*//X.X/..*              ; '   ssa          ;
-                   X...XX..*XX//XX,,X*,****XX.XXX..XX.             \                /
+        '                  ,/X,,XXX.X/%&&%*//X.X/..*              ; 'ssssssa          ;
+                   X...XX..*XX//XX,,X*,****XX.XXX..XX.             \   sssssss      /
                          ............,.,,,.......                   ''     qqws   .'
                             ,,...,*****,,###(/*.                     '''-.___'_.-'
            .!                ****/(#(,**/(&X/,(
@@ -123,11 +122,11 @@ namespace ER_GameLibrary
             SetCursorPosition(15, 14); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                             .@....(@@@@@@@@@@@@@@...........                           "); Thread.Sleep(25);
             SetCursorPosition(15, 15); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                            @...@@@@@@@@@@@@@@@@@@@@@@.........*                        "); Thread.Sleep(25);
             SetCursorPosition(15, 16); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                           @.#@@@@@@@@@@@@@@@@@@@@@@@@@@........                       "); Thread.Sleep(25);
-            SetCursorPosition(15, 17); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                          @.@@@@&&@@@@@@@@@@@:::::::@@@@@.......@          Desiree Blaney           "); Thread.Sleep(25);
-            SetCursorPosition(15, 18); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         /.:::::::::::@@@@@;:::::::::::@@@........@        Wren Pacheco            "); Thread.Sleep(25);
-            SetCursorPosition(15, 19); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         ..&::::::::::@@@@@::::::::::::@@@........@        Jonathan Kneeland           "); Thread.Sleep(25);
-            SetCursorPosition(15, 20); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         .@@::::::::::@@@@@@::::::::::@@@.........@        Patricia Quinteros             "); Thread.Sleep(25);
-            SetCursorPosition(15, 21); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                           ,:::::::::@@@@@@@:::::::::@@@@........@                      "); Thread.Sleep(25);
+            SetCursorPosition(15, 17); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                          @.@@@@&&@@@@@@@@@@@:      :@@@@@.......@         Desiree Blaney           "); Thread.Sleep(25);
+            SetCursorPosition(15, 18); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         /.:          @@@@@            @@@........@        Wren Pacheco            "); Thread.Sleep(25);
+            SetCursorPosition(15, 19); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         ..&          @@@@@            @@@........@        Jonathan Kneeland           "); Thread.Sleep(25);
+            SetCursorPosition(15, 20); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         .@@         @@@@@@           @@@.........@        Patricia Quinteros             "); Thread.Sleep(25);
+            SetCursorPosition(15, 21); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                           ,         @@@@@@@         @@@@........@                      "); Thread.Sleep(25);
             SetCursorPosition(15, 22); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                           &.@@@@@@@@@@@@@@@@@@@@@@@@@@@........@                       "); Thread.Sleep(25);
             SetCursorPosition(15, 23); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                            &..@@@@@@@@@WW@@@@@@@@@@@@.........@                        "); Thread.Sleep(25);
             SetCursorPosition(15, 24); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                             .@...@@@@@@@@@@@@@@@@@/.........@ .                        "); Thread.Sleep(25);
@@ -170,42 +169,42 @@ namespace ER_GameLibrary
         public void HelpMenu()
         {
             CursorVisible = false;
-            SetCursorPosition(80, 20); ForegroundColor = ConsoleColor.White; WriteLine(@"##########################################################################################");
-            SetCursorPosition(80, 21); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"           Symbols                  #                   HotKeys                        ");
-            SetCursorPosition(80, 22); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" ╬ Health         ? Encounter       #  J key: Help Menu          ESC Key: Exit         ");
-            SetCursorPosition(80, 23); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" $ Coin           ☼ Beets           #                                                  ");
-            SetCursorPosition(80, 24); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" ¥ Armor          ╧ Attack          #  UpArrow: Move up        DownArrow: Move Down    ");
-            SetCursorPosition(80, 25); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" < or > Event    { or } ShopKeeper  #  LeftArrow: Move Left    RightArrow: Move Right  ");
-            SetCursorPosition(80, 26); ForegroundColor = ConsoleColor.White; WriteLine(@"##########################################################################################");
-            SetCursorPosition(80, 27); ForegroundColor = ConsoleColor.White; WriteLine(@"                                                                  Press(K) to continue");
+            SetCursorPosition(72, 20); ForegroundColor = ConsoleColor.White; WriteLine(@"##########################################################################################");
+            SetCursorPosition(72, 21); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"           Symbols                  #                   HotKeys                        ");
+            SetCursorPosition(72, 22); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" ╬ Health         ? Encounter       #  J key: Help Menu          ESC Key: Exit         ");
+            SetCursorPosition(72, 23); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" $ Coin           ▄ Beets           #                                                  ");
+            SetCursorPosition(72, 24); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" ¥ Armor          ╧ Attack          #  UpArrow: Move up        DownArrow: Move Down    ");
+            SetCursorPosition(72, 25); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" < or > Event    { or } ShopKeeper  #  LeftArrow: Move Left    RightArrow: Move Right  ");
+            SetCursorPosition(72, 26); ForegroundColor = ConsoleColor.White; WriteLine(@"##########################################################################################");
+            SetCursorPosition(72, 27); ForegroundColor = ConsoleColor.White; WriteLine(@"                                                                  Press(K) to continue");
         }
         public void HelpMenuClear()
         {
             CursorVisible = false;
-            SetCursorPosition(80, 20); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 21); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 22); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 23); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 24); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 25); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 26); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 27); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(72, 20); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(72, 21); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(72, 22); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(72, 23); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(72, 24); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(72, 25); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(72, 26); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(72, 27); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
         }
         public void ExitMenu()
         {
             CursorVisible = false;
-            SetCursorPosition(80, 15); ForegroundColor = ConsoleColor.White; WriteLine(@"################################");
-            SetCursorPosition(80, 16); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"         QUIT?               ");
-            SetCursorPosition(80, 17); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  Y= Exit     Tab=Continue    ");
-            SetCursorPosition(80, 18); ForegroundColor = ConsoleColor.White; WriteLine(@"################################");
-            
+            SetCursorPosition(80, 29); ForegroundColor = ConsoleColor.White; WriteLine(@"################################");
+            SetCursorPosition(80, 30); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"         QUIT?               ");
+            SetCursorPosition(80, 31); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  Y= Exit     Tab=Continue    ");
+            SetCursorPosition(80, 32); ForegroundColor = ConsoleColor.White; WriteLine(@"################################");
+
         }
         public void ExitMenuClear()
         {
             CursorVisible = false;
-            SetCursorPosition(80, 15); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 16); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 17); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(80, 29); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(80, 30); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
+            SetCursorPosition(80, 31); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
             SetCursorPosition(80, 18); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
 
         }
@@ -224,8 +223,8 @@ namespace ER_GameLibrary
             SetCursorPosition(73, 40); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"                                                        ");
             SetCursorPosition(73, 41); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"                                                        ");
             SetCursorPosition(73, 42); ForegroundColor = ConsoleColor.White; WriteLine(@"####################################################################");
-           
-           
+
+
         }
 
         public void AttributeMenu(Player player)// works
@@ -242,14 +241,14 @@ namespace ER_GameLibrary
             SetCursorPosition(0, 46); ForegroundColor = ConsoleColor.White; WriteLine($@"   LIFE:{player.Life}                 BEETS:{player.Rejuvenation}            ");
             SetCursorPosition(0, 47); ForegroundColor = ConsoleColor.White; WriteLine(@"                                          ");
             SetCursorPosition(0, 48); ForegroundColor = ConsoleColor.White; WriteLine(@" +------------------------------------------+%");
-            
-            
+
+
         }
         public void ActionMenu(Player player)// works
         {
 
             CursorVisible = false;
-            
+
             SetCursorPosition(52, 39); ForegroundColor = ConsoleColor.White; WriteLine(@" %+-----------------------------------------------------------------------------------------------------+%");
             SetCursorPosition(52, 40); ForegroundColor = ConsoleColor.White; WriteLine(@"                                                                                                     ");
             SetCursorPosition(52, 41); ForegroundColor = ConsoleColor.White; WriteLine(@"                                                                                                     ");
@@ -267,8 +266,8 @@ namespace ER_GameLibrary
         public void Beginning(GameDialogue dialogue)
         {
             Clear();
-            SetCursorPosition(50,10);
-            WriteLine(@"  
+            SetCursorPosition(60, 10);
+            ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  
                                                      XXXX         XXXX
                                                     XX*,*XXXX   XXXX.XXXXXX
                                                     XXXX..%*XXXXX/XXXX..@*.XXX
@@ -280,8 +279,8 @@ namespace ER_GameLibrary
                                                 XXXXXXXXXXXXXXXXXXXXXXXX.@*****X@
                                                  XXXXXX      XX        .XX*****XX
                                                    X XXXXXXXXXX         .X@*****XXX      XXXXXXXXXXX
-                                                             @XX         X@***/(*(XXXXXXXX...**.*..XXX
-                                                              (XX        X#@%(((@**.XXXXXXXX*******..XXX
+                                                             @XX         X@***/(*(bbbbbbbb::::**.*..XXX
+                                                              (XX        X#@%(((@**.bbbbbbbb*******..XXX
                                                                @(%%%%%%%%%%%@*******..XXXXXXX*********.XX
                                                               XXX  .. @@X @***********.@XXXX*XX********.XX
                                                              XX*,.     XX(**************.,XXXXXX*@/*****.XX
@@ -295,7 +294,7 @@ namespace ER_GameLibrary
                                                               XXX .XX(   ..      %***XXXXXXXXXXXX
                                                                     XXXXXXXX  ..@.  XXXXXXXXXX
                                                                            XXXXXXXXXXXXX");
-                                                            WriteLine(@"
+            WriteLine(@"
                                                  _                      _ _             
                                                 | |                    | (_)            
                                                 | |      ___   ____  _ | |_ ____   ____ 
@@ -304,52 +303,55 @@ namespace ER_GameLibrary
                                                 |_______)___/ \_||_|\____|_|_| |_|\_|| |
                                                                                  (_____|"); Thread.Sleep(300); dialogue.Loadingpage();
 
-           
+
         }
         public void Flight(GameDialogue dialogue)
         {
             //transition art for shooter
             Clear();
             CursorVisible = false;
-            SetCursorPosition(50, 10);
+            SetCursorPosition(40, 10);
             WriteLine(@"
-                                                        |              .     .   !   '  (_)      .                .:MMMMM88&&&&&&                               |
-                                            |        .              ,|.'                     .      .:'  MMMMM88&&&&                                |
-                                            |             -  -- ---(-O-`--- --  -      .          .:'   .:'MMM8&&&'           .                     |
-                                            |                        |                            '... .'                                 '/''/     |
-                                            |         .              !   +                                               /        */*/*/*///*///    |
-                                            |             .          :          .       .                        .         */*******************    |
-                                            |                        ,                                     /         .//*/*/*/*/*/*/*/*/*/*///*/    |
-                                            |              .:                                                    /****************************/ /   |
-                                            |                                                 +             ./*/*/*/*/*&@@@@@@@@@(*/*/*/*/*/*/      |
-                                            |                     ++                    .                /**********/@@@@@@@@@@@@@@&*********       |
-                                            |n             .                  .                      **/*/*/*/*/*/*/*/*/*/*/*(@@@@@@@/*/*/*/.     / |
-                                            |nnnn                                                 /****************************/@@@@@******.        |
-                                            |nnnnn                                 .&&&&#(**,../*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/(@@@@/*/*/.         |
-                                            |nnnnnnn               .             %%%%%%%%%%%(************************************@@#*****           |
-                                            |nnnnnnnn                         %%%%%%%%%%%%//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/&/*/*/*/    /       |
-                                            |nnnnnnnnn                     #%%%%%%%%%%%%%**********************(&%%(******************/             |
-                                            |nnnnnnnnnn                 (%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*/*(%%%%%%//*/*/*/*/*/*/*/*/*.              |
-                                            |zzzzzzzzzz))))).        *%%%%%%%%%%%%%%%%/****************/%%%%%%%%%******************/                |
-                                            |zzzzzzzzzz   ) ))     (#&&%%%%%%%%%%%%%%/*/*/*/*/*/*/*//&%%%%%%%%%**/*/*/*/*/*/*/*/*/.                 |
-                                            |zzzzzzzz/ . /))                .#%%%%%%%************(%%%%%%%%%%%/*******************                   |
-                                            |zzzzz...  ))                         #%//*/*/*/*/#%%%%%%%%%%%%/*/*/*/*/*/*/*/*/*/*                     |
-                                            |.z.)zz)                                /******#%%%%%%%%%%%%%(******************/          /            |
-                                            |z)zzzz                      /          */**%%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*//                         |
-                                            |zzzzz                     /      ,,,,,,/#%%%%%%%%%%%%%%%(******************//                          |
-                                            |zzzz                   //    ,,,,,,.,.(%%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*/#%%(                          |
-                                            |zzz                       .,,,,,.....,%%%%%%%%%%%%%%/****************/%%%%%%%                          |
-                                            |z                        ,,,,,,.,.,.,#%%%%%%%%%%%%/*/*/*/*/*/*/*/%%%%%%%%%%%&                          |
-                                            |                 /      *,,,,,,......%%%%%%%%%%%******,*%%%%%%%%%%%%%%%%%%%%%                          |
-                                            |                       .,,,,,,,.,.,.,.,.,.,.,.,.,,.      &%%%%%%%%%%%%%%%%#                            |
-                                            |              /        ,,,,,,,,,..............,,,.        %%%%%%%%%%%%%%/                              |
-                                            |                      ,,,,,,,,,,,,,.,.,.,.,,,,,,.          #%%%%%%%%%%,                                |
-                                            |                      ,,,,,,,,,,,,,,,,,,,,,,,,*      //     &%%%%%%%                                   |
-                                            |                      ,,,,,,,,,,,,,,,,,,,,,,                 %%%%&                                     |
-                                            |                     .,,,,,,,,,,,,,,,,.        /             &%&                                       |
-                                            |                     ....                                    .                                         |
-                                            |                                           /                                                           |
-                                            ");
+---------------------------------------------------------------------------------------------------------
+|              .     .   !   '  (_)      .                .:MMMMM88&&&&&&                               |
+|        .              ,|.'                     .      .:'  MMMMM88&&&&                                |
+|             -  -- ---(-O-`--- --  -      .          .:'   .:'MMM8&&&'           .                     |
+|                        |                            '... .'                                 '/''/     |
+|         .              !   +                                               /        */*/*/*///*///    |
+|             .          :          .       .                        .         */*******************    |
+|                        ,                                     /         .//*/*/*/*/*/*/*/*/*/*///*/    |
+|              .:                                                    /****************************/ /   |
+|                                                 +             ./*/*/*/*/*&@@@@@@@@@(*/*/*/*/*/*/      |
+|                     ++                    .                /**********/@@@@@@@@@@@@@@&*********       |
+|n             .                  .                      **/*/*/*/*/*/*/*/*/*/*/*(@@@@@@@/*/*/*/.     / |
+|nnnn                                                 /****************************/@@@@@******.        |
+|nnnnn                                 .&&&&#(**,../*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/(@@@@/*/*/.         |
+|nnnnnnn               .             %%%%%%%%%%%(************************************@@#*****           |
+|nnnnnnnn                         %%%%%%%%%%%%//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/&/*/*/*/    /       |
+|nnnnnnnnn                     #%%%%%%%%%%%%%**********************(&%%(******************/             |
+|nnnnnnnnnn                 (%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*/*(%%%%%%//*/*/*/*/*/*/*/*/*.              |
+|zzzzzzzzzz))))).        *%%%%%%%%%%%%%%%%/****************/%%%%%%%%%******************/                |
+|zzzzzzzzzz   ) ))     (#&&%%%%%%%%%%%%%%/*/*/*/*/*/*/*//&%%%%%%%%%**/*/*/*/*/*/*/*/*/.                 |
+|zzzzzzzz/ . /))                .#%%%%%%%************(%%%%%%%%%%%/*******************                   |
+|zzzzz...  ))                         #%//*/*/*/*/#%%%%%%%%%%%%/*/*/*/*/*/*/*/*/*/*                     |
+|.z.)zz)                                /******#%%%%%%%%%%%%%(******************/          /            |
+|z)zzzz                      /          */**%%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*//                         |
+|zzzzz                     /      ,,,,,,/#%%%%%%%%%%%%%%%(******************//                          |
+|zzzz                   //    ,,,,,,.,.(%%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*/#%%(                          |
+|zzz                       .,,,,,.....,%%%%%%%%%%%%%%/****************/%%%%%%%                          |
+|z                        ,,,,,,.,.,.,#%%%%%%%%%%%%/*/*/*/*/*/*/*/%%%%%%%%%%%&                          |
+|                 /      *,,,,,,......%%%%%%%%%%%******,*%%%%%%%%%%%%%%%%%%%%%                          |
+|                       .,,,,,,,.,.,.,.,.,.,.,.,.,,.      &%%%%%%%%%%%%%%%%#                            |
+|              /        ,,,,,,,,,..............,,,.        %%%%%%%%%%%%%%/                              |
+|                      ,,,,,,,,,,,,,.,.,.,.,,,,,,.          #%%%%%%%%%%,                                |
+|                      ,,,,,,,,,,,,,,,,,,,,,,,,*      //     &%%%%%%%                                   |
+|                      ,,,,,,,,,,,,,,,,,,,,,,                 %%%%&                                     |
+|                     .,,,,,,,,,,,,,,,,.        /             &%&                                       |
+|                     ....                                    .                                         |
+|                                           /                                                           |
++-------------------------------------------------------------------------------------------------------+
+
+");
             WriteLine(@"
                                                  _                      _ _             
                                                 | |                    | (_)            
@@ -357,7 +359,7 @@ namespace ER_GameLibrary
                                                 | |     / _ \ / _  |/ || | |  _ \ / _  |
                                                 | |____| |_| ( ( | ( (_| | | | | ( ( | |
                                                 |_______)___/ \_||_|\____|_|_| |_|\_|| |
-                                                                                 (_____|"); Thread.Sleep(300); dialogue.Loadingpage();Clear();
+                                                                                 (_____|"); Thread.Sleep(300); dialogue.Loadingpage(); Clear();
         }
         public void ShopKeeperImage(GameDialogue dialogue)
         {
@@ -365,7 +367,7 @@ namespace ER_GameLibrary
             Clear();
             CursorVisible = false;
             SetCursorPosition(80, 10);
-                                            WriteLine(@"
+            WriteLine(@"
                                                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#                 
                                                 ((((((      ((((((      (      ((((((      ((((((               
                                                ((((((      ((((((      (((      ((((((      ((((((              
@@ -385,52 +387,13 @@ namespace ER_GameLibrary
                                                .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,% %%       %,,,,               
                                                .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,%          %,,,,               
                                                .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,%          %,,,,               ");
-            WriteLine(@"
-                                                 _                      _ _             
-                                                | |                    | (_)            
-                                                | |      ___   ____  _ | |_ ____   ____ 
-                                                | |     / _ \ / _  |/ || | |  _ \ / _  |
-                                                | |____| |_| ( ( | ( (_| | | | | ( ( | |
-                                                |_______)___/ \_||_|\____|_|_| |_|\_|| |
-                                                                                 (_____|"); Thread.Sleep(300); dialogue.Loadingpage();
-            Clear();
         }
-        public void PlanetLanding(GameDialogue dialogue)
-        {
-            CursorVisible = false;
-            SetCursorPosition(50, 10);
-            WriteLine(@"
-                                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                                            @@@@@@@@@@@@@@@@@@@(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&.......................... .. .@@@@@@
-                                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@...........,.......... .......... ,,........
-                                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@. ......................,........,,..,,*,*******,,
-                                            @@@@@@@@@@@@@@@@@@@@@@@@@@,.............,,.,,,,..,,,..........,.,.,.,***********
-                                            @@@@@@@@@@@@@@@@@@@@@@@.......,,****,,.,,,,,,,*,,,,*,.........,,,.,....,,*******
-                                            @@@@@@@@@@@@@@@@@@@@.....,,,,******,,,,,,,,,,,*****,,,.........,,....  ... .....
-                                            @@@@@@@@@@@@@@@@@*.,,,,,,,,*******,,***,,,*****,,,.,,,,....,,**,,**,,,...,,,....
-                                            @@@@@@@@@@@@@@@....,,,,,,****,,,,,,,,,**,**,****///////*,,,,,,*****///////,,,,,,
-                                            @@@@@@@@@@@@@,.,.,,**,**********,..,,,,,,**/*****///**////(*,*,****///////*****,
-                                            @@@@@@@@@@@*,.,,,,****/****,**,,,*.*,*///*/////***/*/*/***/*///////////////*****
-                                            @@@@@@@@@@,*,**/*(//*,,,,,,,,,,.,*,,,/(**/////*//**/*//*//////////*//////*****/*
-                                            @@@@@@@@@(,/*///(/,*****,,**,**,****,,*////////////**///***/////////*////***,...
-                                            @@@@@@@@%(//(/(/*//(**//////****/*****,*///////////////*,**///////**//**///**,.,
-                                            @@@@@@@@##(((((/,*/(//(/////*****,*********///((/***/**,*,*///(///*////*/*//*/*,
-                                            @@@@@@&@((#((/((#(((((/(/(//////*/*******,,***//**/**///*/,/*****////////*,*,");
-            WriteLine(@"
-                                                 _                      _ _             
-                                                | |                    | (_)            
-                                                | |      ___   ____  _ | |_ ____   ____ 
-                                                | |     / _ \ / _  |/ || | |  _ \ / _  |
-                                                | |____| |_| ( ( | ( (_| | | | | ( ( | |
-                                                |_______)___/ \_||_|\____|_|_| |_|\_|| |
-                                                                                 (_____|"); Thread.Sleep(300); dialogue.Loadingpage();
-        }
+           
+                                               
+
+                                               
+      
+
         public void Home()
         {
             //planet landing Loading image
@@ -439,61 +402,41 @@ namespace ER_GameLibrary
         {
             //planet landing Loading image
         }
-        
+
 
         public void FightMenu()
         {
             CursorVisible = false;
-            SetCursorPosition(10, 29); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++");
-            SetCursorPosition(10, 30); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  | (A)ttack    (D)efend  |   ");
-            SetCursorPosition(10, 31); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |                       |   ");
-            SetCursorPosition(10, 32); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |  (R)un       (H)eal   |   ");
-            SetCursorPosition(10, 33); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++");
+            SetCursorPosition(13, 32); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++");
+            SetCursorPosition(13, 33); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"       *****ELTA******        ");
+            SetCursorPosition(13, 34); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  | (A)ttack    (D)efend  |   ");
+            SetCursorPosition(13, 35); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |                       |   ");
+            SetCursorPosition(13, 36); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |  (R)un       (H)eal   |   ");
+            SetCursorPosition(13, 37); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++");
         }
-        public void FightMagicMenu()
-        {
-            SetCursorPosition(54, 42); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-            SetCursorPosition(54, 43); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  | (A)ttack    (D)efend |  (F) Fire      (W )Water     ");
-            SetCursorPosition(54, 44); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |                      |                              ");
-            SetCursorPosition(54, 45); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  | (R)un       (H)eal   |  (I) Ice       (V) Voltage   ");
-            SetCursorPosition(54, 46); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-        }
+     
         public void BossFightMenu()
         {
-            SetCursorPosition(10, 29); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++");
-            SetCursorPosition(10, 30); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  | (A)ttack    (D)efend |    ");
-            SetCursorPosition(10, 31); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |                      |    ");
-            SetCursorPosition(10, 32); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |        (H)eal        |    ");
-            SetCursorPosition(10, 33); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++");
+            SetCursorPosition(13, 32); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++");
+            SetCursorPosition(13, 33); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"       *****ELTA******        ");
+            SetCursorPosition(13, 34); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  | (A)ttack    (D)efend |    ");
+            SetCursorPosition(13, 35); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |                      |    ");
+            SetCursorPosition(13, 36); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |        (H)eal        |    ");
+            SetCursorPosition(13, 37); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++");
         }
 
-        public void BossFightMagicMenu()
-        {
-            SetCursorPosition(54, 42); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-            SetCursorPosition(54, 43); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  | (A)ttack    (D)efend |  (F) Fire      (W )Water     ");
-            SetCursorPosition(54, 44); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |                      |                              ");
-            SetCursorPosition(54, 45); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |        (H)eal        |  (I) Ice       (V) Voltage   ");
-            SetCursorPosition(54, 46); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-        }
-        public void BossFightWithBosses()
-        {
-            SetCursorPosition(54, 42); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-            SetCursorPosition(54, 43); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  | (A)ttack    (D)efend |  (F) Fire      (W )Water     |");
-            SetCursorPosition(54, 44); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |                      |                              |");
-            SetCursorPosition(54, 45); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  |        (H)eal        |  (I) Ice       (V) Voltage   |");
-            SetCursorPosition(54, 46); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-        }
+       
         public void EnemyStats(Enemies enemy)
         {
-            SetCursorPosition(85, 29); ForegroundColor = ConsoleColor.White; WriteLine(@"++++++++++++++++++++++++++++++++++++++++++++++++++");
-            SetCursorPosition(85, 30); ForegroundColor = ConsoleColor.White; WriteLine($@"              ****{enemy.Name}****                       ");
-            SetCursorPosition(85, 31); ForegroundColor = ConsoleColor.White; WriteLine($@"   Armor:{enemy.Armor}            Attack:{enemy.Power}  ");
-            SetCursorPosition(85, 32); ForegroundColor = ConsoleColor.White; WriteLine(@"                                               ");
-            SetCursorPosition(85, 33); ForegroundColor = ConsoleColor.White; WriteLine($@"   Health:{enemy.Health}            Argo:{enemy.AGRO}           ");// agro should have a stat bar increase
-            SetCursorPosition(85, 34); ForegroundColor = ConsoleColor.White; WriteLine(@"++++++++++++++++++++++++++++++++++++++++++++++++++");
+            SetCursorPosition(88, 32); ForegroundColor = ConsoleColor.White; WriteLine(@"++++++++++++++++++++++++++++++++++++++++++++++++++");
+            SetCursorPosition(88, 33); ForegroundColor = ConsoleColor.White; WriteLine($@"                    ****{enemy.Name}****                       ");
+            SetCursorPosition(88, 34); ForegroundColor = ConsoleColor.White; WriteLine($@"      Armor:{enemy.Armor}            Attack:{enemy.Power}  ");
+            SetCursorPosition(88, 35); ForegroundColor = ConsoleColor.White; WriteLine(@"                                               ");
+            SetCursorPosition(88, 36); ForegroundColor = ConsoleColor.White; WriteLine($@"       Health:{enemy.Health}                     ");// agro should have a stat bar increase
+            SetCursorPosition(88, 37); ForegroundColor = ConsoleColor.White; WriteLine(@"++++++++++++++++++++++++++++++++++++++++++++++++++");
 
         }
-        
+
         public void Death()
         {//get the position
             SetCursorPosition(29, 10); WriteLine(@" 
@@ -527,8 +470,128 @@ namespace ER_GameLibrary
                
                                                                                 ");
         }
+        public void Escape()
+        {
+            SetCursorPosition(10, 0); WriteLine(@"
+                    +-------------------------------------------------------------------------------------------------------+
+                    |                                                ,,,                                                    |
+                    |                                               .***                                                    |
+                    |                                                &@                                                     |
+                    |                                            .(@@@@@&&&&@@@@%,                                          |
+                    |                                       #@@#     ,@@&           %@@.                                    |
+                    |                                   (@@                             .%@/                                |
+                    |                                %@(                                    /@#                             |
+                    |                             .@&      XXXXXXXX                            (@                           |
+                    |                           .@#      XXXXXXXXXXXX                            /@.                        |
+                    |                          @&       XXXXXXXX  XXXX                             (@                       |
+                    |                         @*        XXX XXXX   XXX                              ,@                      |
+                    |                       .@.          XXXXXXXXXXXXX                               .&                     |
+                    |                       @/            XXXXXXXXXXX                                 /&                    |
+                    |                      /@              XXXXXXXX                                   .%                    |
+                    |                      %&       XXX     XXXXX      XXX                             %.                   |
+                    |                      #&      XXXXXXXXXXXXXXXXXXXXXXX                            .%                    |
+                    |                      .@       XXXXXXXXXXXXXXXXXXXXXX                            /&                    |
+                    |                       %@           XXXXXXXXXXX                XX---XX           %.                    |
+                    |                        @@            XXXXXXX                XXX - - XXX        ##                     |
+                    |                         #@            XXXXXX                XX \ o / XX       #@                      |
+                    |                          .@*   *((/*****%@(((((((((((((/*********,,,,***,.   (&                       |
+                    |                          @@@@/*********/@(((((((((((((/*********(,,,,,,,,,,*&@@@%                     |
+                    |                       @@((((((((#@&/***@@(((((((((((((***********(*&@&(///////////%@%                 |
+                    |                     @@((((((((#%((((((((((#%&&&@@@@@&&&&%##/////////////&&(//////////&@,              |
+                    |                   *@(((((((((****((((((((((((((((((((((((((///////////#****////////////#@(            |
+                    |                  @&(((((((((#,,,,%(((((((((((((((&&&&&&((((///////////#,,,,#/////////////#@*          |
+                    |                 @&(((((((((((((((((((((((((((((((%&&##%(((////////////////////////////////@@          |
+                    |                   &@@@%(((((((((((((((((((((((((((((((((///////////////////////((%@@@@@@@*            |
+                    |                           .*#%&@@@((###%%&&&&&&&&&&&&&&&&&&%%###((/******&@/,.                        |
+                    |             /                     .@@@@@&((((((((((((((((((((/****@@@%(@*                             |
+                    |                                    %@@@@@@(%********************@@@@@@(%&          /                  |
+                    |                      /              /@@%&@@.  ./#&@@@@@@(&@/.    &@@@@@*                              |
+                    |                  /                                  @@@@&                                             |
+                    |              /               /                              /           /        /                    |
+                    |                                             /                                                         |
+                    +-------------------------------------------------------------------------------------------------------+
+                                                           ");
 
 
-        
+        }
+        public void FightImage()
+        {
+            SetCursorPosition(15, 2); WriteLine(@"            
+                      ,(%%&&%%#                                                                         ..                  .
+                     .&&&%%&%%%%&#/,                                                                ..        ##########(#      .
+                    %&&@%%#%##&%&@@&%.                                                           .      ######################    ..
+                   #@#@&&&&      /%%##%&/        .                                              .     (#########((((((((###(((((((    .
+                   %@@%#@&#     ,#%#&*(,/%#*###,/(                                           .     ######&(&&&&&(((((%&&&&&&&&((((/   .
+                    %&&&&*     (%&&%/%@@&&%#%#%%,                                         .    #####&&%&&(               &&(((((((    .
+                    ,##&%%(/(/((%@@&((%#%&@&&%%%/                                        .    ######%#&&(              &&%(((((((((   .
+                     %%%%&%&#%%&%@&(&&/                                                .    &&&&&&(#&&&             /&&&%((((((((((    .
+                  %#%&%&&&&%&&&%##&&&&&                                                 .     &  &###&&&&&&&&&&&&&&&&%/(((#((((&(    .
+                 /%&%&@@@&&&&%%&#%&%&@%&                                                  .   &&&#######&&&&&&&&&&&#####%(((((&(    .
+                 #&%#&@&&&##%*&%&&%%#&@#          ###                                    .   &&#################&&&####(((&(&(     .
+                 %&##&@@@&&%%%&%&&&%%&&      #%&%%/                                      .   &#####&############(&####((&#((     .
+                %&%%%&.&@@@@&%#&&&&%&&/  %%&%%%                                           .   *#####&##############%(((&#(%.   ..
+              &&&%(&@# &&&&&%&&##%(%%%%%%%%                                                .    %###############%##(((%##((      .
+            ,%#%##,%%#%%&%%&%(#%%(,(/#/(#%(#/,                                              .    %#########%####%((((%##(((        .
+            &&&&@&&#(#%#%(#%#(##%(@#@*&#%%%&%%(                                              .    %############(((((&%#%((((  *    .
+             /%%##&&&@@&&@@@&#%&@@@@@&&&/*.%%##/                                              .    %##########(%%##%&##((((#%
+                    #%%@@&%%@@&@@@@&&%&&#%&(      *                                            .    #####%%####&&&%%%#%(((%(((     .
+                   /#&&&@@@@&%&&@@@%##%%%%(&&%                                                .    .#(#### ,%##&&&&%####(%#%%##      .
+                    %%%&%&&&@@@@&&&##%%%&%%..&%%                                           .               /  #%&&&%###((#% (((((%   .
+                    *(#&&%%&&&&&( &&&%%##&%/   *%#/                                        .       %#(   %      (%&%&#((##%((  ((     .
+                    // #%&&@&@&&% #&%%###@%       ###                                       .        .  %       %#%&#((#%(((*(( (     .
+                    .  .%&&@@@@@.  (@&%%%##                                                         #    &  %, &##%##(#%(%/*#.###    ..
+                        (%@@@@&%    %&&##%&%                                                      *     &    .,(%###(%&/./(%% (((       .
+                        (%@@@&#/,/  &%/(&%%%&                                                 .      .     *((,(##%(#& /(((( #%/(  ((    .
+                        .#%###%%/(% %&@&%%&%(                                                   .   %     (((#* %%(*#   (((((  %%       .
+                           (#/#%%%&  &&&##%@@(                                                   .                    ###             .
+                                  %. @&&%(%&@#/                                                        .    ...       %    ..  ....
+                      
+
+
+");
+        }
+
+        public void Ending()
+        {
+            WriteLine(@"
+                                  &&&  *%%%     ,%&&%%&%%
+                                &%#  %%%     &&%&%,., &&%
+                              *%%  /%&    .%&&#... &%%%*
+                             .%&  %%#    &%%/.,. &%%(
+                             &%. *&&   .&&&.,. ,%%%
+                             *%  &%.   &%&,,,  %%#
+                                 .(   (%%.,,. &%%
+                                   ./&&&&.... &%%%,
+                               %%%%%%#*.,,,,,.  ,#&%%%&/
+                            &&%&*,,,,,,.,.,.,.,.,,,.  #&%&/
+                          &&%/,...................,,...  &%%(
+                        /%%#,,,.,.,.,.,.,.,.,.,.,.,.,.,.,  &%%
+                       ,%%/.,.........................,,.,. &%&
+                       &%&.,..,...,.,.,....,,.,,...,,,..,,, .%%(
+                      *&%&%%%%%%%%%%&%%%%%%%%&%&%%%%%%%%%%%%%%%%.
+                   &%%%%%&%%%%%%%%%&*...,,,,,...,. (&%%%%%%%%%%&%%%(
+                (%%%/%%%%%%%%%%%%%,,,......,,....,.. .%%%%%%%%%%%%%&%%,
+          ,/(&&%&#..&%%%%%%%%%%%/,,.,.,.,.,.,.,,,,,... &%%%%%%%%%%%(.%%%&%/*.
+      *%%&&&%(,..,,%%%%%%%%%%%&%,..,%&%%,,,,,..(&%&#... %%%%%%%%%%%&,,. ,(&&&%%%
+      &%&...,.,.,,.&%%%%%%%%%%%,,.,%/.,&%,,.,.&%*..&#,, *%%%%%%%%%&%,.,,,,,. .%%*
+       %%%%,.,,....,%%%%%%%%%%.,...,.,..,,,.,.,,,.....,, #%%%%%%%%%%.,.,.,.,&%%#
+         ,&%%%%%%%&%%%%%%%&&/.,.,.,.,./&%%%%%%%%&.,.,.,... %%&%%%%%%%%%%%%%%%.
+                .%%&%%%%%%%%%%/,,....,,%%&%%%&%%/.....,.,%&%%%%%&%&%%&%
+              %%&%,,,.,.,.,,,&%%#,.,,,,,,.#%%,,.,.,.,..%%%/,,.,,,.,.,/%&%,
+            .%%&,..#,........,,%%#,..,,,.,%&%%.,.....,%%%,..,.....,*/,,*&&&
+            &%%..#%&,,,%%*,.,..%&%#**/%&&&%,%&&%%#**/%%%/,,.,.&%#..,%&,,/%&,
+             &%%%&%,..%%*.,*%%%%%#&&&&/.        ,%&&&&#%%%%(,..%%*..#%%%%%/
+__     __                               _                ,%&&%&%%%&%&&/
+ \ \   / /                              | |
+  \ \_/ /__  _   _  __      _____  _ __ | |
+   \   / _ \| | | | \ \ /\ / / _ \| '_ \| |
+    | | (_) | |_| |  \ V  V / (_) | | | |_|
+    |_|\___/ \__,_|   \_/\_/ \___/|_| |_(_)
+
+");
+        }
     }
 }
+
+
+

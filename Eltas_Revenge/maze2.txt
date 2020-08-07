@@ -12,7 +12,7 @@
 |                         XXX                XXXXXXXXXXX X            |
 |  XXXXXXXXX                             XXXXXXXXXXXXXXXXXX           |
 | XXXXXXXXXXXX                         XXXXXXXXXXXXXXXXXXXXX          |
-|XXXX   XXXXXX              ☼          X     XXXXXXXXXXXXXXXX         |
+|XXXX   XXXXXX             ▄          X     XXXXXXXXXXXXXXXX         |
 |XX  $ XXXXXXX                                       XXXXXXXX      ╧  |
 |     XXXXXXXX   XXXXXX        XXX                                    |
 |     XXXXXXX   XXXXXXX      XXXXXXXX                                 |
@@ -26,13 +26,13 @@
 |  XXXXXXXXXXXXXXXX                            XXXXXXX           XXXXX|
 |XXXXXXXXXXX                      ?             XXXXXX         ___    |
 |XXXXXXXXX                                       XXX          +___+/+ |
-|XXXXXXXXXX        X                         XXXXXXX       <{{__^___+ |
+|XXXXXXXXXX        X                         XXXXXXX       <[[__^___+ |
 |XXXXXXXXX       XXXX                    XXXX XXXXXXX                 |
 |XXXXXXXX        XXXXXXX                 XXXXXXXXXXXX                 |
 |XXXXXX         XXXXXXXXXX                XXXXXXXXXXXXX               |
 |               XXXXXXXXX  _____               XXXXXXX                |
 |              XXX        /_____\               XX                ?   |
-| ?            XXXX      /_______+}}>                                 |
+| ?            XXXX      /_______+]]>                                 |
 |         /?   XXXX                                                   |
 +---------------------------------------------------------------------+
 

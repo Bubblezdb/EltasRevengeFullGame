@@ -1,58 +1,47 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Diagnostics.Tracing;
-using System.Globalization;
-using System.Text;
-using System.Threading;
 using static System.Console;
 
 namespace ER_GameLibrary
 {
     public class Chapters
     {
-        public Player CurrentPlayer;
+        
         public GameLayout CurrentLayout;
         public string[,] grid;
-        public string gridname= "FI_Chap1.txt";
-        private Encounters CurrentEncounter = new Encounters();
-        public GameImages CurrentImages;
+        public string gridname;
+        
+        public GameImages CurrentImages= new GameImages();
         public UserMenus CurrentMenu;
+        public Player CurrentPlayer = new Player(2, 2);
         private GameDialogue CurrentDialogue = new GameDialogue();
+        
         public int eventcounter = 0;
         public bool chap1 = false;
-       public  bool chap2 = false;
-       public bool chap3 = false;
+        public bool tchap1 = false;
+        public  bool chap2 = false;
+        public bool chap3 = false;
         public bool chap4 = false;
-       public bool chap5 = false;
-
+        public bool chap5 = false;
         Random rand = new Random();
 
 
         public void Chapter(Player player, GameImages images)
         {
+            //builds the chapter images and gameplay. Grid takes the .txt and populates a two-dimensional jagged array 
             Clear();
             CurrentPlayer = player;
             grid = GameImages.ParseFileToArray($"{gridname}");// creates grid. using enum
             CurrentLayout = new GameLayout(grid);
-
-
             CurrentImages = images;
             CurrentMenu = new UserMenus();
-
             //run the world
-            CurrentImages.Beginning(CurrentDialogue);
             RunGameLoop();
-
-
-
         }
         
         public void HandlePlayerInput()//handles key input
-        {
-            // get only the most recent key press
+        {//tutorial presented by Michael Hadley on youtube: ITP SP20: Creating an Explorable Maze in a C# Console Game 
 
-            ConsoleKey key;
+            ConsoleKey key;// get only the most recent key press
             do
             {
                 ConsoleKeyInfo keyInfo = ReadKey(true);
@@ -69,12 +58,8 @@ namespace ER_GameLibrary
                     CurrentImages.HelpMenuClear();
                     break;
                 case ConsoleKey.Escape:
-                    CurrentImages.ExitMenu();
+                    CurrentMenu.MainMenu(CurrentImages);
                     break;
-                case ConsoleKey.Tab:
-                    CurrentImages.ExitMenuClear();
-                    break;
-
                 //shooter keys.....if they are can be used
 
                 case ConsoleKey.UpArrow:
@@ -83,9 +68,7 @@ namespace ER_GameLibrary
                         //states, if the world is position walkable above the player, then they can walk.
 
                         CurrentPlayer.Y -= 1;
-
                     }
-
                     break;
                 case ConsoleKey.DownArrow:
                     if (CurrentLayout.IsPositionWalkable(CurrentPlayer.X, CurrentPlayer.Y + 1))
@@ -121,7 +104,7 @@ namespace ER_GameLibrary
 
         private void RunGameLoop()// allows the landscape to continue generating when the player goes through it.
         {
-
+            // counts stops player from being able to collect unlimited amount of drops.
             int coincount = 0;
             int healthcount = 0;
             int powercount = 0;
@@ -131,14 +114,20 @@ namespace ER_GameLibrary
 
 
             Clear();
-
-
-
-            while (true)
+            if (chap2 == true && chap3 == true && chap4 == true && chap5 == true)
             {
-                // draw everything else
-                CursorVisible = false; // hide cursor
-                CurrentLayout.Draw();
+                // once the player beats the final boss, the game ends with the following methods.
+               
+                
+            }
+
+               
+            while (true)// while loop will break depending on the elementAtPlayerPos.
+            {
+                
+                CursorVisible = false;// hide cursor
+                 
+                CurrentLayout.Draw();// draw everything
                 CurrentImages.AttributeMenu(CurrentPlayer);
                 CurrentImages.ActionMenu(CurrentPlayer);
                 CurrentPlayer.Draw();
@@ -154,10 +143,10 @@ namespace ER_GameLibrary
 
                     if (key == ConsoleKey.Y)
                     {
-                        CurrentImages.ShopKeeperImage(CurrentDialogue);
-                        //Shopkeeper(CurrentPlayer, CurrentImages);
+                        
+                        Shopkeeper(CurrentPlayer, CurrentImages);
                     }
-                    // slows down the speed so it doesn't disappear too fast
+                    
                 }
                 else if (elementAtPlayerPos == ">")// Triggers Boss Fight
                 {
@@ -165,6 +154,7 @@ namespace ER_GameLibrary
                     {
                         
                         ChapterBosses();
+                        
                     }
                     
                     else
@@ -189,15 +179,14 @@ namespace ER_GameLibrary
                             case ConsoleKey.Y:
                             SpaceTravel(); // leads to next chapter and eventcounter reset
                             break;
-                            case ConsoleKey.N:
-                            break;
                             default:
                             break;
 
                         }
                     }
-                    else
+                    else 
                     {
+                        
                         CurrentDialogue.TravelOnHold();
                         ReadKey();
                     }
@@ -205,16 +194,15 @@ namespace ER_GameLibrary
                    
 
                 }
-                else if (elementAtPlayerPos == "$")
-                {//Coin Drop
+                else if (elementAtPlayerPos == "$")//Coin Drop
+                {
                     if (coincount == 0)
                     {
                         int coin = rand.Next(0, 50);
                         CurrentPlayer.Coin += coin;
-
-                        SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {coin}!");
+                        SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {coin} coins!");
                         SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
-                        ReadKey();// slows down the speed so it doesn't disappear too fast
+                        ReadKey();
                         coincount = 1;
                     }
                     else
@@ -222,19 +210,20 @@ namespace ER_GameLibrary
 
                         SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You already picked up this loot!");
                         SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
-                        ReadKey();// slows down the speed so it doesn't disappear too fast
+                        ReadKey();
                     }
                 }
-                else if (elementAtPlayerPos == "╬")
-                {//Health drop
+                else if (elementAtPlayerPos == "╬")//Health drop
+                {
                     if (healthcount == 0)
                     {
                         int health;
                         if (CurrentPlayer.Health == 100)
                         {
                             health = 0;
-                            CurrentPlayer.Coin += health;
-                            SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {health}!");
+                            CurrentPlayer.Health += health;
+                            
+                            SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"Your health is already full!");
                             SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
                             ReadKey();
                         }
@@ -251,7 +240,8 @@ namespace ER_GameLibrary
                                 CurrentPlayer.Health += health;
 
                             }
-                            SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {health}!");
+                            
+                            SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {health} health points!");
                             SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
                             ReadKey();
                         }
@@ -267,10 +257,10 @@ namespace ER_GameLibrary
                 }
                 else if (elementAtPlayerPos == "?")// Triggers encounters
                 {
-                    //if statement that triggers elemental and upper minions
+                    RandomEncounters();
 
                 }
-                else if (elementAtPlayerPos == "☼")// Beet Drops
+                else if (elementAtPlayerPos == "▄")// Beet Drops
                 {
                     if (beetcount == 0)
                     {
@@ -278,8 +268,9 @@ namespace ER_GameLibrary
                         if (CurrentPlayer.Rejuvenation == 10)
                         {
                             beets = 0;
-                            CurrentPlayer.Coin += beets;
-                            SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {beets}!");
+                            CurrentPlayer.Rejuvenation += beets;
+                            
+                            SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"Your beet stash is full!");
                             SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
                             ReadKey();
                         }
@@ -296,7 +287,8 @@ namespace ER_GameLibrary
                                 CurrentPlayer.Rejuvenation += beets;
 
                             }
-                            SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {beets}!");
+                            
+                            SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {beets} rejuventation beets!");
                             SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
                             ReadKey();
                         }
@@ -315,11 +307,11 @@ namespace ER_GameLibrary
                     if (powercount == 0)
                     {
                         int power = rand.Next(0, 5);
-                        CurrentPlayer.Coin += power;
-
-                        SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {power}!");
+                        CurrentPlayer.Attack += power;
+                        
+                        SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {power} attack points!");
                         SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
-                        ReadKey();// slows down the speed so it doesn't disappear too fast
+                        ReadKey();
                         coincount = 1;
                     }
                     else
@@ -328,7 +320,7 @@ namespace ER_GameLibrary
                         SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You already picked up this loot!");
                         SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
                         ReadKey();
-                        // slows down the speed so it doesn't disappear too fast
+                        
                     }
                 }
                 else if (elementAtPlayerPos == "¥")//armor drop
@@ -337,8 +329,8 @@ namespace ER_GameLibrary
                     {
                         int armor = rand.Next(0, 5);
                         CurrentPlayer.Armor += armor;
-
-                        SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {armor}!");
+                        
+                        SetCursorPosition(58, 40); ForegroundColor = ConsoleColor.White; CurrentDialogue.PrintbyChar($"You received {armor} armor points!");
                         SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
                         ReadKey();
 
@@ -362,10 +354,32 @@ namespace ER_GameLibrary
         public void Shopkeeper(Player player, GameImages images)
         {
             //CurrentMenu.Shopkeepermenu(CurrentPlayer);
+            CurrentImages.ShopKeeperImage(CurrentDialogue);
         }
-        public void RandomEncounters(Player player, GameImages images)
+        public void RandomEncounters()
         {
-            // encounterfights
+            switch (rand.Next(0,2))
+            {
+                case 0:
+                    string name = "Lower Minion";
+                    int p = rand.Next(0, 5);
+                    int h = rand.Next(15, 50);
+                    int a = rand.Next(2, 6);
+                    Enemies enemies = new Enemies(name, p, h, a);
+                    ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, enemies, CurrentMenu);
+                    break;
+                case 1:
+                    name = "Upper Minion";
+                     p = rand.Next(2, 10);
+                    h = rand.Next(20, 70);
+                     a = rand.Next(5, 9);
+                    Enemies RAM = new Enemies(name, p, h, a);
+                    ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, RAM, CurrentMenu);
+                    break;
+            }
+          
+                 
+                    
 
         }
         public void ChapBoss(Player player, GameImages images, GameDialogue dialogue, Enemies enemies, UserMenus menu)
@@ -373,22 +387,33 @@ namespace ER_GameLibrary
 
             Clear();
             
-            menu.StoryFightMenu(CurrentPlayer, enemies, images);
+            menu.StoryFightMenu(CurrentPlayer, enemies, images,dialogue);
 
         }
 
         
-        public void SpaceTravel()
+        public void SpaceTravel()// loads the maps according to the chapter.
         {
-            
-            
-            if (chap2 == false)
+            if (tchap1 == false)
+            {
+                gridname = "FI_Chap1.txt";
+                tchap1 = true;
+                eventcounter = 0;
+                Clear();
+                CurrentDialogue.Chapter1();
+                CurrentImages.Beginning(CurrentDialogue);
+                CurrentDialogue.ScreenDirections();
+                Chapter(CurrentPlayer, CurrentImages);
+            }
+
+            else if (tchap1==true && chap2 == false)
             {
                 gridname = "maze1.txt";
                 chap2 = true;
                 eventcounter = 0;
                 Clear();
-                SetCursorPosition(2, 2);
+                CurrentImages.Flight(CurrentDialogue);
+                CurrentDialogue.Chapter2();
                 Chapter(CurrentPlayer, CurrentImages);
             }
             else if (chap2 == true && chap3 == false)
@@ -397,7 +422,9 @@ namespace ER_GameLibrary
                 chap3 = true;
                 eventcounter = 0;
                 Clear();
-                SetCursorPosition(2, 2);
+                CurrentDialogue.Chapter2End();
+                CurrentImages.Flight(CurrentDialogue);
+                CurrentDialogue.Chapter3();
                 Chapter(CurrentPlayer, CurrentImages);
             }
             else if (chap2 == true && chap3 == true && chap4 == false)
@@ -406,16 +433,21 @@ namespace ER_GameLibrary
                 chap4 = true;
                 eventcounter = 0;
                 Clear();
-                SetCursorPosition(2, 2);
+                CurrentDialogue.Chapter3End();
+                CurrentImages.Flight(CurrentDialogue);
+                CurrentDialogue.Chap4Dialouge();
                 Chapter(CurrentPlayer, CurrentImages);
             }
             else if (chap2 == true && chap3 == true && chap4 == true && chap5 == false)
             {
                 eventcounter = 0;
-                gridname = "maze4.txt";
-                
+                gridname = "maze5.txt";
+                CurrentDialogue.Chap4End();
+                CurrentImages.Flight(CurrentDialogue);
+                CurrentDialogue.Chap5Dialouge();
                 Chapter(CurrentPlayer, CurrentImages);
             }   Clear();
+
             
 
 
@@ -428,8 +460,8 @@ namespace ER_GameLibrary
             ConsoleKeyInfo keyInfo = ReadKey(true);
             ConsoleKey key; key = keyInfo.Key;
             // check if event count is set to 1. 
-            // if event count is set to 0, then Y option N opion
-            // if event count is set to 1, else statement will conclude.
+            // if event count is set to 0, then Y option N option
+            // if event count is set to 1,  statement will conclude.
             switch (key)
             {
                 case ConsoleKey.Y:
@@ -440,49 +472,58 @@ namespace ER_GameLibrary
                         Enemies Chp1 = new Enemies(name, 10, 50, 15);
                         ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, Chp1, CurrentMenu);
                         Clear();
+                        CurrentImages.Escape();
+                        CurrentDialogue.Escape();
+                        eventcounter = 1; 
                         chap1 = true;
-                        eventcounter = 1;
                     }
                     else if (chap1 == true && chap2 == false)
                     {
                         string name = "Thruul";
-                        Enemies Chp2 = new Enemies(name, 10, 50, 15);
+                        Enemies Chp2 = new Enemies(name, 15, 75, 20);
                         ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, Chp2, CurrentMenu);
                         Clear();
+                        CurrentImages.Escape();
+                        CurrentDialogue.Escape();
                         chap2 = true;
                         eventcounter = 1;
                     }
                     else if (chap1 == true && chap2 == true && chap3 == false)
                     {
                         string name = "Yilkir";
-                        Enemies Chp3 = new Enemies(name, 10, 50, 15);
+                        Enemies Chp3 = new Enemies(name, 15, 100, 25);
                         ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, Chp3, CurrentMenu);
                         Clear();
+                        CurrentImages.Escape();
+                        CurrentDialogue.Escape();
                         chap3 = true;
                         eventcounter = 1;
                     }
                     else if (chap1 == true && chap2 == true && chap3 == true && chap4 == false)
                     {
                         string name = "Yilkir";
-                        Enemies Chp4 = new Enemies(name, 10, 50, 15);
+                        Enemies Chp4 = new Enemies(name, 20, 150, 25);
                         ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, Chp4, CurrentMenu);
                         Clear();
+                        CurrentImages.Escape();
+                        CurrentDialogue.Escape();
+                        ReadKey();
                         chap4 = true;
                         eventcounter = 1;
                     }
                     else if (chap1 == true && chap2 == true && chap3 == true && chap4 == true && chap5 == false)
                     {
                         string name = "Bailmaith";
-                        Enemies Chp5 = new Enemies(name, 10, 50, 15);
+                        Enemies Chp5 = new Enemies(name, 25, 200, 25);
                         ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, Chp5, CurrentMenu);
                         Clear();
                         chap5 = true;
+                        CurrentImages.Ending();
+                        CurrentDialogue.Ending();
                         SetCursorPosition(58, 40); WriteLine("You beat the game! Now you can explore or start the game all over!");
                         SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
                         ReadKey();
                     }
-                    
-
                     break;
                 case ConsoleKey.N:
                     break;

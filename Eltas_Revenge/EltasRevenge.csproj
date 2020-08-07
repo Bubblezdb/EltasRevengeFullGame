@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ER_Game\ER_GameLibrary.csproj" />
-    <ProjectReference Include="..\ShooterLibrary\ShooterLibrary.csproj" />
   </ItemGroup>
 
   <ItemGroup>
