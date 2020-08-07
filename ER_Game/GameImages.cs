@@ -166,48 +166,10 @@ namespace ER_GameLibrary
             SetCursorPosition(73, 39); ForegroundColor = ConsoleColor.Green; WriteLine(@"                        A Team 2 Project                              ");
         }
 
-        public void HelpMenu()
-        {
-            CursorVisible = false;
-            SetCursorPosition(72, 20); ForegroundColor = ConsoleColor.White; WriteLine(@"##########################################################################################");
-            SetCursorPosition(72, 21); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"           Symbols                  #                   HotKeys                        ");
-            SetCursorPosition(72, 22); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" ╬ Health         ? Encounter       #  J key: Help Menu          F1 Key: Exit         ");
-            SetCursorPosition(72, 23); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" $ Coin           ▄ Beets           #                                                  ");
-            SetCursorPosition(72, 24); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" ¥ Armor          ╧ Attack          #  UpArrow: Move up        DownArrow: Move Down    ");
-            SetCursorPosition(72, 25); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@" < or > Event    { or } ShopKeeper  #  LeftArrow: Move Left    RightArrow: Move Right  ");
-            SetCursorPosition(72, 26); ForegroundColor = ConsoleColor.White; WriteLine(@"##########################################################################################");
-            SetCursorPosition(72, 27); ForegroundColor = ConsoleColor.White; WriteLine(@"                                                                  Press(K) to continue");
-        }
-        public void HelpMenuClear()
-        {
-            CursorVisible = false;
-            SetCursorPosition(72, 20); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(72, 21); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(72, 22); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(72, 23); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(72, 24); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(72, 25); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(72, 26); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(72, 27); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
-        }
-        public void ExitMenu()
-        {
-            CursorVisible = false;
-            SetCursorPosition(80, 29); ForegroundColor = ConsoleColor.White; WriteLine(@"################################");
-            SetCursorPosition(80, 30); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"         QUIT?               ");
-            SetCursorPosition(80, 31); ForegroundColor = ConsoleColor.DarkCyan; WriteLine(@"  Y= Exit     Tab=Continue    ");
-            SetCursorPosition(80, 32); ForegroundColor = ConsoleColor.White; WriteLine(@"################################");
-
-        }
-        public void ExitMenuClear()
-        {
-            CursorVisible = false;
-            SetCursorPosition(80, 29); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 30); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 31); ForegroundColor = ConsoleColor.DarkCyan; Write(new string(' ', Console.WindowWidth));
-            SetCursorPosition(80, 18); ForegroundColor = ConsoleColor.White; Write(new string(' ', Console.WindowWidth));
-
-        }
+       
+        
+        
+        
         public void Credits()
         {
 

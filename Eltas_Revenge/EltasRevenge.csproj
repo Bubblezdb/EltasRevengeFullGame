@@ -28,9 +28,6 @@
     <None Update="maze3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="maze4.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="maze5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

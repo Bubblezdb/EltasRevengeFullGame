@@ -38,9 +38,9 @@ namespace EltasRevenge
 
             //size verified on jul31
             WindowHeight = 50;
-            WindowWidth = 160;
+            WindowWidth = 164;
             BufferHeight = 50;
-            BufferWidth = 160;
+            BufferWidth = 164;
 
         }
 

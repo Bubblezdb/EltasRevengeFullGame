@@ -108,12 +108,11 @@ namespace ER_GameLibrary
         public void AfterBossFight()
         {
             Clear();
-            SetCursorPosition(80, 11); ForegroundColor = ConsoleColor.White; PrintbyChar("Now that you beat the boss, you have to chase after those goons!");
-            SetCursorPosition(80, 12); ForegroundColor = ConsoleColor.White; PrintbyChar("Don't let them get away with Irno! ");
-            SetCursorPosition(80, 13); ForegroundColor = ConsoleColor.White; PrintbyChar("Jump into your spaceship to travel to the next planet!");
+            SetCursorPosition(80, 11); ForegroundColor = ConsoleColor.White; PrintbyChar("Now that you beat the boss, feel free to explore the world or");
+            SetCursorPosition(80, 13); ForegroundColor = ConsoleColor.White; PrintbyChar("jump into your spaceship to travel to the next planet!");
             SetCursorPosition(80, 14); ForegroundColor = ConsoleColor.White; PrintbyChar("Press any key to continue...");
             ReadKey();
-            Clear();
+            
         }
         public void Chapter2()
         {

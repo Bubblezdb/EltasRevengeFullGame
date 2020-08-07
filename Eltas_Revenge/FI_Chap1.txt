@@ -1,37 +1,37 @@
-﻿+---------------------------------------------------------------------+
-|                 XX                                                  |
-|                XXXXXXXXX             \                         ?    |
-|               XXXXXXXXXXX           \o/                X            |
-|             XXXXXXXXXXXXX           /+\/               XXX          |
-|             +           +            |            XXXXXXXXXX        |
-|     ?       |    +-+    |            +           XXXXXXXXXXXXX      |
-|          WW +-----------+WWW                    XXXXXXXXXXXXXX      |
-|         WWW               WWW                        ___     +  \\  |
-|                                                     +___+/+  |  /o+ |
-|                 ╬       /   \\                   <[[__^___|  |= /+\ |
-|      XXX                /\  \o\                   +----------+WW    |
-|      XXXXXXXXX        //o\ //+\\      ¥                      WWW    |
-|      XXXXXXXXXX       /\+\\  |                 ?                    |
-|      XXXXXXXXXX         |    +                                      |
-|      +       {          |                                           |
-|      |       {          +                      XXXX   XXXXXXX       |
-|      +WW+W+-+W+W                              XXXXXXXXXXXXXXXX      |
-|      WW       W                              XXXXXXXXXXXXXXXXX      |
-|                                     \\//+    +              +       |
-|                                     \/o\\    |              |       |
-|                                     \\+\    W+W+W+----+W++W++W      |
-|     ▄       XXXXXX                    |        W     W  W W W       |
-|            XXXXXXXXXXXXXXXXX          +                             |
-|            XXXXXXXXXXXXXXXX                                         |
-|            +             +     _____                       $        |
-|            |             +---+/_____\                               |
-|            |             |   /_______+]]>                           |
-|          WW+-------------+-------+WWw                               |
-|                         WWW       WW                        ╧       |
-|                       WWWWWWWW                                      |
-|   ?                                  WWWW                           |
-|                                     wwwwwww                         |
-|                                                         WWW         |
-|        WWWWW                ?                          WWWWW        |
-|                                                                     |
-+---------------------------------------------------------------------+
+﻿+---------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+|                 XX                                                  |                        !!!!!!!!!!!!Game Helper!!!!!!!!!!!!!                             |
+|                XXXXXXXXX             \                         ?    |                                                                                         |
+|               XXXXXXXXXXX           \o/                X            |                                                                                         |
+|             XXXXXXXXXXXXX           /+\/               XXX          |                                                                                         |
+|             +           +            |            XXXXXXXXXX        |   Objective                                               Important Land Marks          |
+|     ?       |    +-+    |            +           XXXXXXXXXXXXX      |                                                                                         |
+|          WW +-----------+WWW                    XXXXXXXXXXXXXX      | Take down the bosses to progess the story                                _____          |
+|         WWW               WWW                        ___     +  \\  | and activate travel between planets.                                    /_____\         |
+|                                                     +___+/+  |  /o+ |                                                              Boss Ship /_______+]]>     |
+|                 ╬       /   \\                   <[[__^___|  |= /+\ | Activate the a boss fight by walking over ">"                                           |
+|      qq                /\   \o\                   +----------+WW    | on the boss ship                                                                        |
+|      qqqqqqqqq        //o\ //+\\      ¥                      WWW    |                                                                                         |
+|      qqqqqqqqqq       /\+\\  |                 ?                    | Activate the interplanetary travel by                                       ___         |
+|      qqqqqqqqqq         |    +                                      | walking over "<"                                                           +___+/+      |
+|      +       {          |                                           |                                                             Your ship   <[[__^___+      |
+|      |       {          +                      XXXX   XXXXXXX       | If you walk over { or } you will activate the store.                                    |
+|      +WW+W+-+W+W                              XXXXXXXXXXXXXXXX      | Shops are located on each planet. You can buy                                           |
+|      WW       W                              XXXXXXXXXXXXXXXXX      | attributes and sell junk there.                                qq                       |
+|                                     \\//+    +              +       |                                                                qqqqqqqqq                |
+|                                     \/o\\    |              |       | Attribute drops can only be picked up once                     qqqqqqqqqq       qq      |
+|                                     \\+\    W+W+W+----+W++W++W      | per map. If you don't need it, don't take it!                  qqqqqqqqqq      qqqq     |
+|     ▄       XXXXXX                    |        W     W  W W W       | Be forewarned,  bosses get harder.                             +       {      qqqqqq    |
+|            XXXXXXXXXXXXXXXXX          +                             | Also watch out for random minion fights!                       |       {  or  }    +    |
+|            XXXXXXXXXXXXXXXX                                         |                                                          Store +WW+W+-+W+W    +----+    |
+|            +             +     _____                       $        |                                                                                         |
+|            |             +---+/_____\                               |                                                                                         |
+|            |             |   /_______+]]>                           |                                                                                         |
+|          WW+-------------+-------+WWw                               |                                                                                         |
+|                         WWW       WW                        ╧       +-----------------------------------------------------------------------------------------+
+|                       WWWWWWWW                                      |##########################################################################################
+|   ?                                  WWWW                           |             Symbols                   #                   HotKeys                       +
+|                                     wwwwwww                         |    ╬ Health         ▄ Beets           #  UpArrow: Move up        DownArrow: Move Down   |
+|                                                         WWW         |    $ Coin                             #                                                 |
+|        WWWWW                ?                          WWWWW        |    ¥ Armor          ╧ Attack          #  LeftArrow: Move Left    RightArrow: Move Right |
+|                                                                     |                                       #                                                 +
++---------------------------------------------------------------------+##########################################################################################

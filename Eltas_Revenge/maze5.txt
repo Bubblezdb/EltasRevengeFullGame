@@ -1,38 +1,37 @@
-﻿+---------------------------------------------------------------------+
-|                                       XXXXXXXXXXXX                  |
-|        XXXXXXXXXX                     XXXXXXXXXXX                   |
-|       XXXXXXXXXXX                                       ?           |
-|      XXXXXXXXXXXXX       XXXXXXXX                          ___      |
-|      XXX XXXXXXXXX      XXXXXXXXXXXXXXX                   +___+/+   |
-|      XXXX XXXXXXXXX      X XXXXXXXXXXXX                <[[__^___|   |
-|       XXXX XXXXXXXX     XXXXXXXX XXXXXX       XXXXXXXX XXXXXX       |
-|             XXXXX    XXXXXXXXXXXXXXXXXXX       XXXXXXXXXXXX X       |
-|             XXXX    XX XXXXXXXXXXXXXXXXX   ?   XXXXXXX X XXXX       |
-|             X       XXXXXXXXXXXXX XXXXXX       XXXXXXXXXXXXX        |
-|    ?                XXXXXXXXX  XXXXXXXXX      XXXXX XXXXXX    ▄     |
-|                     X XXXXXX    XXX X XX      XXXXXXXX              |
-|                      XXXXXXX     XXXXXXX      XXXXXXX               |
-|                      X XXXXX     X XXXXX     XXXXXXXX               |
-|                       XXXXXX     XX XXXX     XXXXXXX                |
-|                      ?           XXXXXXX     XXXXX          ?       |
-| ?                            ?   XXX XXX                            |
-|                XXXXXXX XXXXXXXXXXXXXXXXX                            |
-|         ╬     XXXXXXXXXXXXXXXXX XXXXXXX X            ?              |
-|             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                      XXXX|
-|            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX             XXXXXX XXXXX|
-|             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          XXXXXXXXXXXXX|
-|  ?        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX         XXXXXXXXXXXXX|
-|          XXXXXXXXXXXXX         qq     XXXXXXXX         XXXXXXXXXXXXX|
-+         XXXXXXXXXXXXXXXX      qqqq     XXXXXXX         XXXXXXXXXXXXX|
-XXXXXXX   XXXXXXXXXXXXXXXXX    qqqqqq XXXXXXXXXX     ╧   XXXXX XXXXXXX|
-+XXXXXX      XXXXXXXXXXXXXXX   }    + XXXXXXXXXX         XXX   XXXXXXX|
-|XXXXXXX       XXXXXXXXX XXX   +----+ XXXXXXXXX                XXXXXXX|
-|XXXXXXXX       XXXXXX XXXXX          XXXXXXXX                XXXXXXXX|
-|XXXXXXXX       XXXXXXXXXXX                                ?  XXXXXXXX|
-|XXXXXX          XXXXXXXXX                        XXX                 |
-|XXXXXX  ?                    _____     ¥      XXXXXXX                |
-|XXXXXXX                     /_____\         XXXXXXXXX                |
-|XXXXXXX    ?               /_______+]]>    XXXXXXXXXXXXXXX           |
-|XXXXXXXX              ?                    XXXXXXXXXXXXXXXX          |
-+---------------------------------------------------------------------+
-
+﻿+---------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+|                                       XXXXXXXXXXXX                  |                        !!!!!!!!!!!!Game Helper!!!!!!!!!!!!!                             |
+|        XXXXXXXXXX                     XXXXXXXXXXX                   |                                                                                         |
+|       XXXXXXXXXXX                                       ?    ___    |                                                                                         |
+|      XXXXXXXXXXXXX       XXXXXXXX                           +___+/+ |                                                                                         |
+|      XXX XXXXXXXXX      XXXXXXXXXXXXXXX                  <[[__^___| |   Objective                                               Important Land Marks          |
+|      XXXX XXXXXXXXX      X XXXXXXXXXXXX                             |                                                                                         |
+|       XXXX XXXXXXXX     XXXXXXXX XXXXXX       XXXXXXXX XXXXXX       | Take down the bosses to progess the story                                _____          |
+|             XXXXX    XXXXXXXXXXXXXXXXXXX       XXXXXXXXXXXX X       | and activate travel between planets.                                    /_____\         |
+|             XXXX    XX XXXXXXXXXXXXXXXXX   ?   XXXXXXX X XXXX       |                                                              Boss Ship /_______+]]>     |
+|             X       XXXXXXXXXXXXX XXXXXX       XXXXXXXXXXXXX        | Activate the a boss fight by walking over ">"                                           |
+|    ?                XXXXXXXXX  XXXXXXXXX      XXXXX XXXXXX    ▄     | on the boss ship                                                                        |
+|                     X XXXXXX    XXX X XX      XXXXXXXX              |                                                                                         |
+|                      XXXXXXX     XXXXXXX      XXXXXXX               | Activate the interplanetary travel by                                       ___         |
+|                      X XXXXX     X XXXXX     XXXXXXXX               | walking over "<"                                                           +___+/+      |
+|                       XXXXXX     XX XXXX     XXXXXXX                |                                                             Your ship   <[[__^___+      |
+|                      ?           XXXXXXX     XXXXX          ?       | If you walk over { or } you will activate the store.                                    |
+| ?                            ?   XXX XXX                            | Shops are located on each planet. You can buy                                           |
+|                XXXXXXX XXXXXXXXXXXXXXXXX                            | attributes and sell junk there.                                qq                       |
+|         ╬     XXXXXXXXXXXXXXXXX XXXXXXX X            ?              |                                                                qqqqqqqqq                |
+|             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                      XXXX| Attribute drops can only be picked up once                     qqqqqqqqqq       qq      |
+|            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX             XXXXXX XXXXX| per map. If you don't need it, don't take it!                  qqqqqqqqqq      qqqq     |
+|             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          XXXXXXXXXXXXX| Be forewarned,  bosses get harder.                             +       {      qqqqqq    |
+|  ?        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX         XXXXXXXXXXXXX| Also watch out for random minion fights!                       |       {  or  }    +    |
+|          XXXXXXXXXXXXX            qq    XXXXXXXX       XXXXXXXXXXXXX|                                                          Store +WW+W+-+W+W    +----+    |
++         XXXXXXXXXXXXXXXX         qqqq    XXXXXXX       XXXXXXXXXXXXX|                                                                                         |
+XXXXXXX   XXXXXXXXXXXXXXXXX       qqqqqqXXXXXXXXXX   ╧   XXXXX XXXXXXX|                                                                                         |
++XXXXXX      XXXXXXXXXXXXXXX      }    +XXXXXXXXXX       XXX   XXXXXXX|                                                                                         |
+|XXXXXXX       XXXXXXXXX XXX      +----+XXXXXXXXX              XXXXXXX|                                                                                         |
+|XXXXXXXX       XXXXXX XXXXX            XXXXXXXX              XXXXXXXX+-----------------------------------------------------------------------------------------+
+|XXXXXXXX       XXXXXXXXXXX                                ?  XXXXXXXX|##########################################################################################
+|XXXXXX          XXXXXXXXX                        XXX                 |             Symbols                   #                   HotKeys                       +
+|XXXXXX  ?                    _____     ¥      XXXXXXX                |    ╬ Health         ▄ Beets           #  UpArrow: Move up        DownArrow: Move Down   |
+|XXXXXXX                     /_____\         XXXXXXXXX                |    $ Coin                             #                                                 |
+|XXXXXXX    ?               /_______+]]>    XXXXXXXXXXXXXXX           |    ¥ Armor          ╧ Attack          #  LeftArrow: Move Left    RightArrow: Move Right |
+|XXXXXXXX              ?                    XXXXXXXXXXXXXXXX          |                                       #                                                 +
++---------------------------------------------------------------------+##########################################################################################

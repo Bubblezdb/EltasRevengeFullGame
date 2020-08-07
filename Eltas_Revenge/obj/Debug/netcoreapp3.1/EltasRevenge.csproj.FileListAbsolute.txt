@@ -19,6 +19,5 @@ D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Deb
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\maze1.txt
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\maze2.txt
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\maze3.txt
-D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\maze4.txt
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\maze5.txt
 D:\Class_stuff\ISTA 220\TEAM Projects\EltasRevengeFullGame\Eltas_Revenge\bin\Debug\netcoreapp3.1\FI_Chap1.txt

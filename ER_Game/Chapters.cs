@@ -51,12 +51,8 @@ namespace ER_GameLibrary
 
             switch (key)
             {
-                case ConsoleKey.J:
-                    CurrentImages.HelpMenu();
-                    break;
-                case ConsoleKey.K:
-                    CurrentImages.HelpMenuClear();
-                    break;
+                
+               
                 case ConsoleKey.F1:
                     Clear();
                     CurrentImages.TitlePage();
@@ -123,7 +119,8 @@ namespace ER_GameLibrary
 
 
             Clear();
-            SetCursorPosition(2, 38); ForegroundColor = ConsoleColor.White; WriteLine(@"Press (J) for Help Menu, (F1) to exit game");
+            
+            SetCursorPosition(2, 38); ForegroundColor = ConsoleColor.White; WriteLine(@"Press (F1) to exit game");
             if (chap2 == true && chap3 == true && chap4 == true && chap5 == true)
             {
                 // once the player beats the final boss, the game ends with the following methods.
@@ -136,7 +133,7 @@ namespace ER_GameLibrary
             {
                 
                 CursorVisible = false;// hide cursor
-                 
+                SetCursorPosition(58, 45);
                 CurrentLayout.Draw();// draw everything
                 CurrentImages.AttributeMenu(CurrentPlayer);
                 CurrentImages.ActionMenu(CurrentPlayer);
@@ -434,7 +431,7 @@ namespace ER_GameLibrary
                 Clear();
                 CurrentDialogue.Chapter1();
                 CurrentImages.Beginning(CurrentDialogue);
-                CurrentDialogue.ScreenDirections();
+               
                 Chapter(CurrentPlayer, CurrentImages);
             }
 
@@ -506,6 +503,7 @@ namespace ER_GameLibrary
                         Clear();
                         CurrentImages.Escape();
                         CurrentDialogue.Escape();
+                        Clear();
                         eventcounter = 1; 
                         chap1 = true;
                     }
@@ -517,6 +515,7 @@ namespace ER_GameLibrary
                         Clear();
                         CurrentImages.Escape();
                         CurrentDialogue.Escape();
+                        Clear();
                         chap2 = true;
                         eventcounter = 1;
                     }
@@ -528,6 +527,7 @@ namespace ER_GameLibrary
                         Clear();
                         CurrentImages.Escape();
                         CurrentDialogue.Escape();
+                        Clear();
                         chap3 = true;
                         eventcounter = 1;
                     }
@@ -539,7 +539,8 @@ namespace ER_GameLibrary
                         Clear();
                         CurrentImages.Escape();
                         CurrentDialogue.Escape();
-                        ReadKey();
+                        Clear();
+                        
                         chap4 = true;
                         eventcounter = 1;
                     }
@@ -554,7 +555,8 @@ namespace ER_GameLibrary
                         CurrentDialogue.Ending();
                         SetCursorPosition(58, 40); WriteLine("You beat the game! Now you can explore or start the game all over!");
                         SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
-                        ReadKey();
+                        ReadKey(); 
+                        Clear();
                     }
                     break;
                 case ConsoleKey.N:

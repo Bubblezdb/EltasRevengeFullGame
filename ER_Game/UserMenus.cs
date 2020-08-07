@@ -136,13 +136,11 @@ namespace ER_GameLibrary
 
             while (player.Health > 0 && enemy.Health > 0)
             {
-
+                SetCursorPosition(58, 45);
                 DrawFightMenu(player, enemy, images);
                 SetCursorPosition(54, 40); WriteLine($" Press (A) to attack, (D) to Defend, (H) to heal....");
-                
                 SetCursorPosition(54, 40); WriteLine($"                                                                                      ");
                 FightKeyHandling(player, enemy, images);
-
                 ReadKey();
 
             }
