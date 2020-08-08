@@ -114,43 +114,43 @@ namespace ER_GameLibrary
         public void TeamTitle()// team logo page
         {
             CursorVisible = false;
-            SetCursorPosition(15, 9); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                @   @                     @                             "); Thread.Sleep(25);
-            SetCursorPosition(15, 10); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                              @ ....                   @....@@                          "); Thread.Sleep(25);
-            SetCursorPosition(15, 11); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                              @......                 @......                           "); Thread.Sleep(25);
-            SetCursorPosition(15, 12); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                @ . @&.............@@@ .  . @                           "); Thread.Sleep(25);
-            SetCursorPosition(15, 13); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                @.........................*@.                           "); Thread.Sleep(25);
-            SetCursorPosition(15, 14); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                             .@....(@@@@@@@@@@@@@@...........                           "); Thread.Sleep(25);
-            SetCursorPosition(15, 15); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                            @...@@@@@@@@@@@@@@@@@@@@@@.........*                        "); Thread.Sleep(25);
-            SetCursorPosition(15, 16); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                           @.#@@@@@@@@@@@@@@@@@@@@@@@@@@........                       "); Thread.Sleep(25);
-            SetCursorPosition(15, 17); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                          @.@@@@&&@@@@@@@@@@@:      :@@@@@.......@         Desiree Blaney           "); Thread.Sleep(25);
-            SetCursorPosition(15, 18); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         /.:          @@@@@            @@@........@        Wren Pacheco            "); Thread.Sleep(25);
-            SetCursorPosition(15, 19); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         ..&          @@@@@            @@@........@        Jonathan Kneeland           "); Thread.Sleep(25);
-            SetCursorPosition(15, 20); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         .@@         @@@@@@           @@@.........@        Patricia Quinteros             "); Thread.Sleep(25);
-            SetCursorPosition(15, 21); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                           ,         @@@@@@@         @@@@........@                      "); Thread.Sleep(25);
-            SetCursorPosition(15, 22); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                           &.@@@@@@@@@@@@@@@@@@@@@@@@@@@........@                       "); Thread.Sleep(25);
-            SetCursorPosition(15, 23); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                            &..@@@@@@@@@WW@@@@@@@@@@@@.........@                        "); Thread.Sleep(25);
-            SetCursorPosition(15, 24); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                             .@...@@@@@@@@@@@@@@@@@/.........@ .                        "); Thread.Sleep(25);
-            SetCursorPosition(15, 25); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                 @......@@@@@@@@..........@... ..                       "); Thread.Sleep(25);
-            SetCursorPosition(15, 26); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                  . @......#@........./...../  .                        "); Thread.Sleep(25);
-            SetCursorPosition(15, 27); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                  .@.....@/........@.......... .                        "); Thread.Sleep(25);
-            SetCursorPosition(15, 28); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"   ###       ######## ########    ###    ##     ##     #######   (...............@#...........*.                        "); Thread.Sleep(25);
-            SetCursorPosition(15, 29); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"  ## ##         ##    ##         ## ##   ###   ###    ##     ## @................@,......,.....@                        "); Thread.Sleep(25);
-            SetCursorPosition(15, 30); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@" ##   ##        ##    ##        ##   ##  #### ####           ## ....@....................@,.....                        "); Thread.Sleep(25);
-            SetCursorPosition(15, 31); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##     ##       ##    ######   ##     ## ## ### ##     #######  ...,...........,,,........,......@ .                    "); Thread.Sleep(25);
-            SetCursorPosition(15, 32); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"#########       ##    ##       ######### ##     ##    ##        ...&......................@,......@.                    "); Thread.Sleep(25);
-            SetCursorPosition(15, 33); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##     ##       ##    ##       ##     ## ##     ##    ##        ..,*.................@.....,.......@                    "); Thread.Sleep(25);
-            SetCursorPosition(15, 34); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##     ##       ##    ######## ##     ## ##     ##    ######### .,,..%...............,.....,,..*@@@@                    "); Thread.Sleep(25);
-            SetCursorPosition(15, 35); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@" ######  ########  ########    ###    ######## ####  #######  ##    ## /@%..........(@.....@                            "); Thread.Sleep(25);
-            SetCursorPosition(15, 36); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##    ## ##     ## ##         ## ##      ##     ##  ##     ## ###   ## /(/#&@@@%###@@@%/(@ .                            "); Thread.Sleep(25);
-            SetCursorPosition(15, 37); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##       ##     ## ##        ##   ##     ##     ##  ##     ## ####  ## //////@//////@////@ .                            "); Thread.Sleep(25);
-            SetCursorPosition(15, 38); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##       ########  ######   ##     ##    ##     ##  ##     ## ## ## ## /////@,/////////// .                             "); Thread.Sleep(25);
-            SetCursorPosition(15, 39); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##       ##   ##   ##       #########    ##     ##  ##     ## ##  #### ////@. //////////@ .                             "); Thread.Sleep(25);
-            SetCursorPosition(15, 40); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##    ## ##    ##  ##       ##     ##    ##     ##  ##     ## ##   ### ///@ ..//////////# . .                           "); Thread.Sleep(25);
-            SetCursorPosition(15, 41); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@" ######  ##     ## ######## ##     ##    ##    ####  #######  ##    ## //(. ../////////(  . .                           "); Thread.Sleep(25);
-            SetCursorPosition(15, 42); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                            @@@.... .@@@@@@@@@/ ......./@*. .                           "); Thread.Sleep(25);
-            SetCursorPosition(15, 43); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                          @@@@@  .....  @@@@@@@%.  ..%@(@@@@@                           "); Thread.Sleep(25);
-            SetCursorPosition(15, 44); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                           "); Thread.Sleep(25);
-            SetCursorPosition(15, 45); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                          . @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*                           "); Thread.Sleep(25);
+            SetCursorPosition(20, 9); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                @   @                     @                             "); Thread.Sleep(25);
+            SetCursorPosition(20, 10); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                              @ ....                   @....@@                          "); Thread.Sleep(25);
+            SetCursorPosition(20, 11); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                              @......                 @......                           "); Thread.Sleep(25);
+            SetCursorPosition(20, 12); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                @ . @&.............@@@ .  . @                           "); Thread.Sleep(25);
+            SetCursorPosition(20, 13); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                @.........................*@.                           "); Thread.Sleep(25);
+            SetCursorPosition(20, 14); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                             .@....(@@@@@@@@@@@@@@...........                           "); Thread.Sleep(25);
+            SetCursorPosition(20, 15); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                            @...@@@@@@@@@@@@@@@@@@@@@@.........*                        "); Thread.Sleep(25);
+            SetCursorPosition(20, 16); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                           @.#@@@@@@@@@@@@@@@@@@@@@@@@@@........                       "); Thread.Sleep(25);
+            SetCursorPosition(20, 17); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                          @.@@@@&&@@@@@@@@@@@:      :@@@@@.......@         Desiree Blaney           "); Thread.Sleep(25);
+            SetCursorPosition(20, 18); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         /.:          @@@@@            @@@........@        Wren Pacheco            "); Thread.Sleep(25);
+            SetCursorPosition(20, 19); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         ..&          @@@@@            @@@........@        Jonathan Kneeland           "); Thread.Sleep(25);
+            SetCursorPosition(20, 20); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                         .@@         @@@@@@           @@@.........@        Patricia Quinteros             "); Thread.Sleep(25);
+            SetCursorPosition(20, 21); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                           ,         @@@@@@@         @@@@........@                      "); Thread.Sleep(25);
+            SetCursorPosition(20, 22); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                           &.@@@@@@@@@@@@@@@@@@@@@@@@@@@........@                       "); Thread.Sleep(25);
+            SetCursorPosition(20, 23); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                            &..@@@@@@@@@WW@@@@@@@@@@@@.........@                        "); Thread.Sleep(25);
+            SetCursorPosition(20, 24); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                             .@...@@@@@@@@@@@@@@@@@/.........@ .                        "); Thread.Sleep(25);
+            SetCursorPosition(20, 25); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                 @......@@@@@@@@..........@... ..                       "); Thread.Sleep(25);
+            SetCursorPosition(20, 26); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                  . @......#@........./...../  .                        "); Thread.Sleep(25);
+            SetCursorPosition(20, 27); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                                  .@.....@/........@.......... .                        "); Thread.Sleep(25);
+            SetCursorPosition(20, 28); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"   ###       ######## ########    ###    ##     ##     #######   (...............@#...........*.                        "); Thread.Sleep(25);
+            SetCursorPosition(20, 29); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"  ## ##         ##    ##         ## ##   ###   ###    ##     ## @................@,......,.....@                        "); Thread.Sleep(25);
+            SetCursorPosition(20, 30); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@" ##   ##        ##    ##        ##   ##  #### ####           ## ....@....................@,.....                        "); Thread.Sleep(25);
+            SetCursorPosition(20, 31); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##     ##       ##    ######   ##     ## ## ### ##     #######  ...,...........,,,........,......@ .                    "); Thread.Sleep(25);
+            SetCursorPosition(20, 32); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"#########       ##    ##       ######### ##     ##    ##        ...&......................@,......@.                    "); Thread.Sleep(25);
+            SetCursorPosition(20, 33); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##     ##       ##    ##       ##     ## ##     ##    ##        ..,*.................@.....,.......@                    "); Thread.Sleep(25);
+            SetCursorPosition(20, 34); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##     ##       ##    ######## ##     ## ##     ##    ######### .,,..%...............,.....,,..*@@@@                    "); Thread.Sleep(25);
+            SetCursorPosition(20, 35); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@" ######  ########  ########    ###    ######## ####  #######  ##    ## /@%..........(@.....@                            "); Thread.Sleep(25);
+            SetCursorPosition(20, 36); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##    ## ##     ## ##         ## ##      ##     ##  ##     ## ###   ## /(/#&@@@%###@@@%/(@ .                            "); Thread.Sleep(25);
+            SetCursorPosition(20, 37); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##       ##     ## ##        ##   ##     ##     ##  ##     ## ####  ## //////@//////@////@ .                            "); Thread.Sleep(25);
+            SetCursorPosition(20, 38); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##       ########  ######   ##     ##    ##     ##  ##     ## ## ## ## /////@,/////////// .                             "); Thread.Sleep(25);
+            SetCursorPosition(20, 39); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##       ##   ##   ##       #########    ##     ##  ##     ## ##  #### ////@. //////////@ .                             "); Thread.Sleep(25);
+            SetCursorPosition(20, 40); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"##    ## ##    ##  ##       ##     ##    ##     ##  ##     ## ##   ### ///@ ..//////////# . .                           "); Thread.Sleep(25);
+            SetCursorPosition(20, 41); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@" ######  ##     ## ######## ##     ##    ##    ####  #######  ##    ## //(. ../////////(  . .                           "); Thread.Sleep(25);
+            SetCursorPosition(20, 42); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                            @@@.... .@@@@@@@@@/ ......./@*. .                           "); Thread.Sleep(25);
+            SetCursorPosition(20, 43); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                          @@@@@  .....  @@@@@@@%.  ..%@(@@@@@                           "); Thread.Sleep(25);
+            SetCursorPosition(20, 44); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                           "); Thread.Sleep(25);
+            SetCursorPosition(20, 45); ForegroundColor = ConsoleColor.DarkGreen; WriteLine(@"                                                          . @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*                           "); Thread.Sleep(25);
             Thread.Sleep(3000);
         }
 
@@ -274,44 +274,44 @@ namespace ER_GameLibrary
             CursorVisible = false;
             SetCursorPosition(40, 10);
             WriteLine(@"
----------------------------------------------------------------------------------------------------------
-|              .     .   !   '  (_)      .                .:MMMMM88&&&&&&                               |
-|        .              ,|.'                     .      .:'  MMMMM88&&&&                                |
-|             -  -- ---(-O-`--- --  -      .          .:'   .:'MMM8&&&'           .                     |
-|                        |                            '... .'                                 '/''/     |
-|         .              !   +                                               /        */*/*/*///*///    |
-|             .          :          .       .                        .         */*******************    |
-|                        ,                                     /         .//*/*/*/*/*/*/*/*/*/*///*/    |
-|              .:                                                    /****************************/ /   |
-|                                                 +             ./*/*/*/*/*&@@@@@@@@@(*/*/*/*/*/*/      |
-|                     ++                    .                /**********/@@@@@@@@@@@@@@&*********       |
-|n             .                  .                      **/*/*/*/*/*/*/*/*/*/*/*(@@@@@@@/*/*/*/.     / |
-|nnnn                                                 /****************************/@@@@@******.        |
-|nnnnn                                 .&&&&#(**,../*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/(@@@@/*/*/.         |
-|nnnnnnn               .             %%%%%%%%%%%(************************************@@#*****           |
-|nnnnnnnn                         %%%%%%%%%%%%//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/&/*/*/*/    /       |
-|nnnnnnnnn                     #%%%%%%%%%%%%%**********************(&%%(******************/             |
-|nnnnnnnnnn                 (%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*/*(%%%%%%//*/*/*/*/*/*/*/*/*.              |
-|zzzzzzzzzz))))).        *%%%%%%%%%%%%%%%%/****************/%%%%%%%%%******************/                |
-|zzzzzzzzzz   ) ))     (#&&%%%%%%%%%%%%%%/*/*/*/*/*/*/*//&%%%%%%%%%**/*/*/*/*/*/*/*/*/.                 |
-|zzzzzzzz/ . /))                .#%%%%%%%************(%%%%%%%%%%%/*******************                   |
-|zzzzz...  ))                         #%//*/*/*/*/#%%%%%%%%%%%%/*/*/*/*/*/*/*/*/*/*                     |
-|.z.)zz)                                /******#%%%%%%%%%%%%%(******************/          /            |
-|z)zzzz                      /          */**%%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*//                         |
-|zzzzz                     /      ,,,,,,/#%%%%%%%%%%%%%%%(******************//                          |
-|zzzz                   //    ,,,,,,.,.(%%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*/#%%(                          |
-|zzz                       .,,,,,.....,%%%%%%%%%%%%%%/****************/%%%%%%%                          |
-|z                        ,,,,,,.,.,.,#%%%%%%%%%%%%/*/*/*/*/*/*/*/%%%%%%%%%%%&                          |
-|                 /      *,,,,,,......%%%%%%%%%%%******,*%%%%%%%%%%%%%%%%%%%%%                          |
-|                       .,,,,,,,.,.,.,.,.,.,.,.,.,,.      &%%%%%%%%%%%%%%%%#                            |
-|              /        ,,,,,,,,,..............,,,.        %%%%%%%%%%%%%%/                              |
-|                      ,,,,,,,,,,,,,.,.,.,.,,,,,,.          #%%%%%%%%%%,                                |
-|                      ,,,,,,,,,,,,,,,,,,,,,,,,*      //     &%%%%%%%                                   |
-|                      ,,,,,,,,,,,,,,,,,,,,,,                 %%%%&                                     |
-|                     .,,,,,,,,,,,,,,,,.        /             &%&                                       |
-|                     ....                                    .                                         |
-|                                           /                                                           |
-+-------------------------------------------------------------------------------------------------------+
+                    ---------------------------------------------------------------------------------------------------------
+                    |              .     .   !   '  (_)      .                .:MMMMM88&&&&&&                               |
+                    |        .              ,|.'                     .      .:'  MMMMM88&&&&                                |
+                    |             -  -- ---(-O-`--- --  -      .          .:'   .:'MMM8&&&'           .                     |
+                    |                        |                            '... .'                                 '/''/     |
+                    |         .              !   +                                               /        */*/*/*///*///    |
+                    |             .          :          .       .                        .         */*******************    |
+                    |                        ,                                     /         .//*/*/*/*/*/*/*/*/*/*///*/    |
+                    |              .:                                                    /****************************/ /   |
+                    |                                                 +             ./*/*/*/*/*&@@@@@@@@@(*/*/*/*/*/*/      |
+                    |                     ++                    .                /**********/@@@@@@@@@@@@@@&*********       |
+                    |n             .                  .                      **/*/*/*/*/*/*/*/*/*/*/*(@@@@@@@/*/*/*/.     / |
+                    |nnnn                                                 /****************************/@@@@@******.        |
+                    |nnnnn                                 .&&&&#(**,../*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/(@@@@/*/*/.         |
+                    |nnnnnnn               .             %%%%%%%%%%%(************************************@@#*****           |
+                    |nnnnnnnn                         %%%%%%%%%%%%//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/&/*/*/*/    /       |
+                    |nnnnnnnnn                     #%%%%%%%%%%%%%**********************(&%%(******************/             |
+                    |nnnnnnnnnn                 (%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*/*(%%%%%%//*/*/*/*/*/*/*/*/*.              |
+                    |zzzzzzzzzz))))).        *%%%%%%%%%%%%%%%%/****************/%%%%%%%%%******************/                |
+                    |zzzzzzzzzz   ) ))     (#&&%%%%%%%%%%%%%%/*/*/*/*/*/*/*//&%%%%%%%%%**/*/*/*/*/*/*/*/*/.                 |
+                    |zzzzzzzz/ . /))                .#%%%%%%%************(%%%%%%%%%%%/*******************                   |
+                    |zzzzz...  ))                         #%//*/*/*/*/#%%%%%%%%%%%%/*/*/*/*/*/*/*/*/*/*                     |
+                    |.z.)zz)                                /******#%%%%%%%%%%%%%(******************/          /            |
+                    |z)zzzz                      /          */**%%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*//                         |
+                    |zzzzz                     /      ,,,,,,/#%%%%%%%%%%%%%%%(******************//                          |
+                    |zzzz                   //    ,,,,,,.,.(%%%%%%%%%%%%%%%(*/*/*/*/*/*/*/*/*/#%%(                          |
+                    |zzz                       .,,,,,.....,%%%%%%%%%%%%%%/****************/%%%%%%%                          |
+                    |z                        ,,,,,,.,.,.,#%%%%%%%%%%%%/*/*/*/*/*/*/*/%%%%%%%%%%%&                          |
+                    |                 /      *,,,,,,......%%%%%%%%%%%******,*%%%%%%%%%%%%%%%%%%%%%                          |
+                    |                       .,,,,,,,.,.,.,.,.,.,.,.,.,,.      &%%%%%%%%%%%%%%%%#                            |
+                    |              /        ,,,,,,,,,..............,,,.        %%%%%%%%%%%%%%/                              |
+                    |                      ,,,,,,,,,,,,,.,.,.,.,,,,,,.          #%%%%%%%%%%,                                |
+                    |                      ,,,,,,,,,,,,,,,,,,,,,,,,*      //     &%%%%%%%                                   |
+                    |                      ,,,,,,,,,,,,,,,,,,,,,,                 %%%%&                                     |
+                    |                     .,,,,,,,,,,,,,,,,.        /             &%&                                       |
+                    |                     ....                                    .                                         |
+                    |                                           /                                                           |
+                    +-------------------------------------------------------------------------------------------------------+
 
 ");
             WriteLine(@"
@@ -376,15 +376,7 @@ namespace ER_GameLibrary
                                                
       
 
-        public void Home()
-        {
-            //planet landing Loading image
-        }
-        public void SpaceShip()
-        {
-            //planet landing Loading image
-        }
-
+       
 
         public void FightMenu()
         {
@@ -422,34 +414,34 @@ namespace ER_GameLibrary
         public void Death()
         {//get the position
             SetCursorPosition(29, 10); WriteLine(@" 
-               ,@@@.. .......&&@
-           &@....................@&
-        @@*@...... .. ...... .....,.&
-       @//&.,  ,.. . ,..... ..........@
-      @//@.,..... .. ..................&
-     %/,*@.... .......,.........,.,.. ..@
-    %.*,,*.............,,.....,.....,...@
-    %..,,,............/&@(#@&@..,........@             ___           ___           ___           ___                    ___                         ___           ___
-   %(,.*@..........&,,,,,,,,.,,%........ @            /\__\         /\  \         /\  \         /\__\                  /\  \          ___          /\__\         /\  \
-   %,.,,@.......,.&,*,*@&,,%@,,.,........@           /:/ _/_       /::\  \       |::\  \       /:/ _/_                /::\  \        /\  \        /:/ _/_       /::\  \
-   %*.*/@ ..,.,...,@.*,,,,,*,,.%.......,.(,         /:/ /\  \     /:/\:\  \      |:|:\  \     /:/ /\__\              /:/\:\  \       \:\  \      /:/ /\__\     /:/\:\__\
-   @,*,*@..,....,,..,..*,/*.,,, ... . ... %        /:/ /::\  \   /:/ /::\  \   __|:|\:\  \   /:/ /:/ _/_            /:/  \:\  \       \:\  \    /:/ /:/ _/_   /:/ /:/  /
-   @*,**%...,..,..... .&&.@......,........@       /:/__\/\:\__\ /:/_/:/\:\__\ /::::|_\:\__\ /:/_/:/ /\__\          /:/__/ \:\__\  ___  \:\__\  /:/_/:/ /\__\ /:/_/:/__/___
-   %,.,,@,.. ............................ %       \:\  \ /:/  / \:\/:/  \/__/ \:\~~\  \/__/ \:\/:/ /:/  /          \:\  \ /:/  / /\  \ |:|  |  \:\/:/ /:/  / \:\/:::::/  /
-   %,,,,&.. ..,.. ...... . ,....,,,,,.. ,.%        \:\  /:/  /   \::/__/       \:\  \        \::/_/:/  /            \:\  /:/  /  \:\  \|:|  |   \::/_/:/  /   \::/~~/~~~~
-   @.%,,&,..  . .... .. ......,..,..,,,...,*        \:\/:/  /     \:\  \        \:\  \        \:\/:/  /              \:\/:/  /    \:\__|:|__|    \:\/:/  /     \:\~~\
-   @/,//&. ...     . .. ..,...,,,..... ....@         \::/  /       \:\__\        \:\__\        \::/  /                \::/  /      \::::/__/      \::/  /       \:\__\
-   @,.,,... ..  ... ...  .,.,,,.,,.,.......&          \/__/         \/__/         \/__/         \/__/                  \/__/        ~~~~           \/__/         \/__/
-   @,,..,..... ........,,.,.,,,,,,,..., ...@
-   @*,.,,@.......... .,,,,,,..,,,..........@
-   &,,,,.&.,,..........,.,,,..........,....%
-   ,,**,/.,,...,......,,,,,.....,...,,.. ..@   .&
-    &.,*//@,,.,.*.(..,....,.....,.....,....@. &,%@,*
-.&*  &*,*/,@..,...,.,,.....,..,.,...........&&*,,(*@
- %,%%&.*///.,,,..,.....,. .....,.....@@@,,**,,**,*&
-  %,./@@*//@,,,,....,(@&&@@,,*,,,,,,,,,,***@&
-   @@**///@@@(*((,///@@@@*,&@@@&
-               
+                              ,@@@.. .......&&@                 ___           ___           ___           ___
+                           &@....................@&            /\__\         /\  \         /\  \         /\__\
+                        @@*@...... .. ...... .....,.&         /:/ _/_       /::\  \       +::\  \       /:/ _/_
+                       @//&.,  ,.. . ,..... ..........@      /:/ /\  \     /:/\:\  \      |:+:\  \     /:/ /\__\
+                      @//@.,..... .. ..................&    /:/ /::\  \   /:/ /::\  \   __+:|\:\  \   /:/ /:/ _/_
+                     %/,*@.... .......,.........,.,.. ..@  /:/__\/\:\__\ /:/_/:/\:\__\ /::::+_\:\__\ /:/_/:/ /\__\
+                    %.*,,*.............,,.....,.....,...@  \:\  \ /:/  / \:\/:/  \/__/ \:\~~\  \/__/ \:\/:/ /:/  /
+                    %..,,,............/&@(#@&@..,........@  \:\  /:/  /   \::/__/       \:\  \        \::/_/:/  /
+                   %(,.*@..........&,,,,,,,,.,,%........ @   \:\/:/  /     \:\  \        \:\  \        \:\/:/  /
+                   %,.,,@.......,.&,*,*@&,,%@,,.,........@    \::/  /       \:\__\        \:\__\        \::/  /
+                   %*.*/@ ..,.,...,@.*,,,,,*,,.%.......,.(,    \/__/         \/__/         \/__/         \/__/
+                   @,*,*@..,....,,..,..*,/*.,,, ... . ... %        ___                         ___           ___
+                   @*,**%...,..,..... .&&.@......,........@       /\  \          ___          /\__\         /\  \
+                   %,.,,@,.. ............................ %      /::\  \        /\  \        /:/ _/_       /::\  \
+                   %,,,,&.. ..,.. ...... . ,....,,,,,.. ,.%     /:/\:\  \       \:\  \      /:/ /\__\     /:/\:\__\
+                   @.%,,&,..  . .... .. ......,..,..,,,...,*   /:/  \:\  \       \:\  \    /:/ /:/ _/_   /:/ /:/  /
+                   @/,//&. ...     . .. ..,...,,,..... ....@  /:/__/ \:\__\  ___  \:\__\  /:/_/:/ /\__\ /:/_/:/__/___
+                   @,.,,... ..  ... ...  .,.,,,.,,.,.......&  \:\  \ /:/  / /\  \ +:+  +  \:\/:/ /:/  / \:\/:::::/  /
+                   @,,..,..... ........,,.,.,,,,,,,..., ...@   \:\  /:/  /  \:\  \|:|  |   \::/_/:/  /   \::/~~/~~~~
+                   @*,.,,@.......... .,,,,,,..,,,..........@    \:\/:/  /    \:\__+:+__+    \:\/:/  /     \:\~~\
+                   &,,,,.&.,,..........,.,,,..........,....%     \::/  /      \::::/__/      \::/  /       \:\__\
+                   ,,**,/.,,...,......,,,,,.....,...,,.. ..@   .& \/__/        ~~~~           \/__/         \/__/
+                    &.,*//@,,.,.*.(..,....,.....,.....,....@. &,%@,*
+                .&*  &*,*/,@..,...,.,,.....,..,.,...........&&*,,(*@
+                 %,%%&.*///.,,,..,.....,. .....,.....@@@,,**,,**,*&
+                  %,./@@*//@,,,,....,(@&&@@,,*,,,,,,,,,,***@&
+                   @@**///@@@(*((,///@@@@*,&@@@&
+
                                                                                 ");
         }
         public void Escape()
@@ -536,39 +528,39 @@ namespace ER_GameLibrary
         public void Ending()
         {
             WriteLine(@"
-                                  &&&  *%%%     ,%&&%%&%%
-                                &%#  %%%     &&%&%,., &&%
-                              *%%  /%&    .%&&#... &%%%*
-                             .%&  %%#    &%%/.,. &%%(
-                             &%. *&&   .&&&.,. ,%%%
-                             *%  &%.   &%&,,,  %%#
-                                 .(   (%%.,,. &%%
-                                   ./&&&&.... &%%%,
-                               %%%%%%#*.,,,,,.  ,#&%%%&/
-                            &&%&*,,,,,,.,.,.,.,.,,,.  #&%&/
-                          &&%/,...................,,...  &%%(
-                        /%%#,,,.,.,.,.,.,.,.,.,.,.,.,.,.,  &%%
-                       ,%%/.,.........................,,.,. &%&
-                       &%&.,..,...,.,.,....,,.,,...,,,..,,, .%%(
-                      *&%&%%%%%%%%%%&%%%%%%%%&%&%%%%%%%%%%%%%%%%.
-                   &%%%%%&%%%%%%%%%&*...,,,,,...,. (&%%%%%%%%%%&%%%(
-                (%%%/%%%%%%%%%%%%%,,,......,,....,.. .%%%%%%%%%%%%%&%%,
-          ,/(&&%&#..&%%%%%%%%%%%/,,.,.,.,.,.,.,,,,,... &%%%%%%%%%%%(.%%%&%/*.
-      *%%&&&%(,..,,%%%%%%%%%%%&%,..,%&%%,,,,,..(&%&#... %%%%%%%%%%%&,,. ,(&&&%%%
-      &%&...,.,.,,.&%%%%%%%%%%%,,.,%/.,&%,,.,.&%*..&#,, *%%%%%%%%%&%,.,,,,,. .%%*
-       %%%%,.,,....,%%%%%%%%%%.,...,.,..,,,.,.,,,.....,, #%%%%%%%%%%.,.,.,.,&%%#
-         ,&%%%%%%%&%%%%%%%&&/.,.,.,.,./&%%%%%%%%&.,.,.,... %%&%%%%%%%%%%%%%%%.
-                .%%&%%%%%%%%%%/,,....,,%%&%%%&%%/.....,.,%&%%%%%&%&%%&%
-              %%&%,,,.,.,.,,,&%%#,.,,,,,,.#%%,,.,.,.,..%%%/,,.,,,.,.,/%&%,
-            .%%&,..#,........,,%%#,..,,,.,%&%%.,.....,%%%,..,.....,*/,,*&&&
-            &%%..#%&,,,%%*,.,..%&%#**/%&&&%,%&&%%#**/%%%/,,.,.&%#..,%&,,/%&,
-             &%%%&%,..%%*.,*%%%%%#&&&&/.        ,%&&&&#%%%%(,..%%*..#%%%%%/
-__     __                               _                ,%&&%&%%%&%&&/
- \ \   / /                              | |
-  \ \_/ /__  _   _  __      _____  _ __ | |
-   \   / _ \| | | | \ \ /\ / / _ \| '_ \| |
-    | | (_) | |_| |  \ V  V / (_) | | | |_|
-    |_|\___/ \__,_|   \_/\_/ \___/|_| |_(_)
+                                                          &&&  *%%%     ,%&&%%&%%
+                                                        &%#  %%%     &&%&%,., &&%
+                                                      *%%  /%&    .%&&#... &%%%*
+                                                     .%&  %%#    &%%/.,. &%%(
+                                                     &%. *&&   .&&&.,. ,%%%
+                                                     *%  &%.   &%&,,,  %%#
+                                                         .(   (%%.,,. &%%
+                                                           ./&&&&.... &%%%,
+                                                       %%%%%%#*.,,,,,.  ,#&%%%&/
+                                                    &&%&*,,,,,,.,.,.,.,.,,,.  #&%&/
+                                                  &&%/,...................,,...  &%%(
+                                                /%%#,,,.,.,.,.,.,.,.,.,.,.,.,.,.,  &%%
+                                               ,%%/.,.........................,,.,. &%&
+                                               &%&.,..,...,.,.,....,,.,,...,,,..,,, .%%(
+                                              *&%&%%%%%%%%%%&%%%%%%%%&%&%%%%%%%%%%%%%%%%.
+                                           &%%%%%&%%%%%%%%%&*...,,,,,...,. (&%%%%%%%%%%&%%%(
+                                        (%%%/%%%%%%%%%%%%%,,,......,,....,.. .%%%%%%%%%%%%%&%%,
+                                  ,/(&&%&#..&%%%%%%%%%%%/,,.,.,.,.,.,.,,,,,... &%%%%%%%%%%%(.%%%&%/*.
+                              *%%&&&%(,..,,%%%%%%%%%%%&%,..,%&%%,,,,,..(&%&#... %%%%%%%%%%%&,,. ,(&&&%%%
+                              &%&...,.,.,,.&%%%%%%%%%%%,,.,%/.,&%,,.,.&%*..&#,, *%%%%%%%%%&%,.,,,,,. .%%*
+                               %%%%,.,,....,%%%%%%%%%%.,...,.,..,,,.,.,,,.....,, #%%%%%%%%%%.,.,.,.,&%%#
+                                 ,&%%%%%%%&%%%%%%%&&/.,.,.,.,./&%%%%%%%%&.,.,.,... %%&%%%%%%%%%%%%%%%.
+                                        .%%&%%%%%%%%%%/,,....,,%%&%%%&%%/.....,.,%&%%%%%&%&%%&%
+                                      %%&%,,,.,.,.,,,&%%#,.,,,,,,.#%%,,.,.,.,..%%%/,,.,,,.,.,/%&%,
+                                    .%%&,..#,........,,%%#,..,,,.,%&%%.,.....,%%%,..,.....,*/,,*&&&
+                                    &%%..#%&,,,%%*,.,..%&%#**/%&&&%,%&&%%#**/%%%/,,.,.&%#..,%&,,/%&,
+                                     &%%%&%,..%%*.,*%%%%%#&&&&/.        ,%&&&&#%%%%(,..%%*..#%%%%%/
+                        __     __                               _                ,%&&%&%%%&%&&/
+                         \ \   / /                              | |
+                          \ \_/ /__  _   _  __      _____  _ __ | |
+                           \   / _ \| | | | \ \ /\ / / _ \| '_ \| |
+                            | | (_) | |_| |  \ V  V / (_) | | | |_|
+                            |_|\___/ \__,_|   \_/\_/ \___/|_| |_(_)
 
 ");
         }

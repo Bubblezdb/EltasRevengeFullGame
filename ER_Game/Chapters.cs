@@ -19,8 +19,11 @@ namespace ER_GameLibrary
         public bool chap1 = false;
         public bool tchap1 = false;
         public  bool chap2 = false;
+        public bool tchap2 = false;
         public bool chap3 = false;
+        public bool tchap3 = false;
         public bool chap4 = false;
+        public bool tchap4 = false;
         public bool chap5 = false;
         Random rand = new Random();
 
@@ -354,7 +357,7 @@ namespace ER_GameLibrary
                     }
                 }
 
-                System.Threading.Thread.Sleep(20);
+                System.Threading.Thread.Sleep(5);
 
             }
         }
@@ -507,7 +510,7 @@ namespace ER_GameLibrary
                         eventcounter = 1; 
                         chap1 = true;
                     }
-                    else if (chap1 == true && chap2 == false)
+                    else if (chap1 == true && tchap2 == false)
                     {
                         string name = "Thruul";
                         Enemies Chp2 = new Enemies(name, 15, 75, 20);
@@ -516,10 +519,10 @@ namespace ER_GameLibrary
                         CurrentImages.Escape();
                         CurrentDialogue.Escape();
                         Clear();
-                        chap2 = true;
+                        tchap2 = true;
                         eventcounter = 1;
                     }
-                    else if (chap1 == true && chap2 == true && chap3 == false)
+                    else if (chap1 == true && tchap2 == true && tchap3 == false)
                     {
                         string name = "Yilkir";
                         Enemies Chp3 = new Enemies(name, 15, 100, 25);
@@ -528,31 +531,31 @@ namespace ER_GameLibrary
                         CurrentImages.Escape();
                         CurrentDialogue.Escape();
                         Clear();
-                        chap3 = true;
+                        tchap3 = true;
                         eventcounter = 1;
                     }
-                    else if (chap1 == true && chap2 == true && chap3 == true && chap4 == false)
+                    else if (chap1 == true && tchap2 == true && tchap3 == true && tchap4 == false)
                     {
-                        string name = "Yilkir";
+                        string name = "Tanqin";
                         Enemies Chp4 = new Enemies(name, 20, 150, 25);
                         ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, Chp4, CurrentMenu);
                         Clear();
                         CurrentImages.Escape();
                         CurrentDialogue.Escape();
                         Clear();
-                        
-                        chap4 = true;
+
+                        tchap4 = true;
                         eventcounter = 1;
                     }
-                    else if (chap1 == true && chap2 == true && chap3 == true && chap4 == true && chap5 == false)
+                    else if (chap1 == true && tchap2 == true && tchap3 == true && tchap4 == true && chap5 == false)
                     {
                         string name = "Bailmaith";
                         Enemies Chp5 = new Enemies(name, 25, 200, 25);
                         ChapBoss(CurrentPlayer, CurrentImages, CurrentDialogue, Chp5, CurrentMenu);
                         Clear();
                         chap5 = true;
-                        CurrentImages.Ending();
                         CurrentDialogue.Ending();
+                        CurrentImages.Ending();
                         SetCursorPosition(58, 40); WriteLine("You beat the game! Now you can explore or start the game all over!");
                         SetCursorPosition(54, 41); WriteLine("Press any key to continue...");
                         ReadKey(); 

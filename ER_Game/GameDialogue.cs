@@ -13,7 +13,7 @@ namespace ER_GameLibrary
             foreach (char character in sentence)
             {
                 Write(character);
-                Thread.Sleep(20); 
+                Thread.Sleep(15); 
             }
         }
         public void Loadingpage()

@@ -60,11 +60,15 @@ namespace ER_GameLibrary
                     }
                     else if (element == "¥")// Q= drop
                     {
-                        ForegroundColor = ConsoleColor.Gray;
+                        ForegroundColor = ConsoleColor.DarkGray;
                     }
                     else if (element == "▄")// Q= drop
                     {
                         ForegroundColor = ConsoleColor.Red;
+                    }
+                    else if (element == "╧")// Q= drop
+                    {
+                        ForegroundColor = ConsoleColor.Blue;
                     }
                     else if (element == "?")// Q= drop
                     {
