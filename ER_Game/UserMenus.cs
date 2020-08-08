@@ -144,12 +144,12 @@ namespace ER_GameLibrary
                 ReadKey();
 
             }
-            if (enemy.Health == 0)
+            if (enemy.Health <1 )
             {
                 DrawFightMenu(player, enemy, images);
                 Kill(player, enemy, images, dialogue);
             }
-            else if (player.Life > 0 && player.Health == 0)
+            else if (player.Life > 0 && player.Health < 1)
             {
 
                 DrawFightMenu(player, enemy, images);
@@ -178,7 +178,7 @@ namespace ER_GameLibrary
                         break;
                 }
             }
-            else if (player.Life == 0 && player.Health == 0)
+            else if (player.Life == 0 && player.Health <1 )
             {
                 Death(enemy, images, dialogue);
 

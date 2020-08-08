@@ -107,8 +107,8 @@ namespace ER_GameLibrary
 
 
 
-        private void RunGameLoop()// allows the landscape to continue generating when the player goes through it.
-        {
+        private void RunGameLoop()//tutorial presented by Michael Hadley on youtube: ITP SP20: Creating an Explorable Maze in a C# Console Game 
+        { // allows the landscape to continue generating when the player goes through it.
             // counts stops player from being able to collect unlimited amount of drops.
             int coincount = 0;
             int healthcount = 0;
