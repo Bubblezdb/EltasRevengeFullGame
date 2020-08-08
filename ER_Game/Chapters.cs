@@ -429,7 +429,7 @@ namespace ER_GameLibrary
                 tchap1 = true;
                 eventcounter = 0;
                 Clear();
-                //CurrentDialogue.Chapter1();
+                CurrentDialogue.Chapter1();
                 CurrentImages.Beginning(CurrentDialogue);
                
                 Chapter(CurrentPlayer, CurrentImages);
