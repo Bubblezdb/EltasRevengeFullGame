@@ -5,7 +5,7 @@ namespace ER_GameLibrary
 {
     public class Chapters
     {
-        
+        //tutorial presented by Michael Hadley on youtube: ITP SP20: Creating an Explorable Maze in a C# Console Game
         public GameLayout CurrentLayout;
         public string[,] grid;
         public string gridname;
@@ -68,7 +68,7 @@ namespace ER_GameLibrary
                         mainMenu = CurrentMenu.MainMenu(CurrentImages);
                     }
                     break;
-                //shooter keys.....if they are can be used
+                
 
                 case ConsoleKey.UpArrow:
                     if (CurrentLayout.IsPositionWalkable(CurrentPlayer.X, CurrentPlayer.Y - 1))
@@ -110,7 +110,7 @@ namespace ER_GameLibrary
 
 
 
-        private void RunGameLoop()//tutorial presented by Michael Hadley on youtube: ITP SP20: Creating an Explorable Maze in a C# Console Game 
+        private void RunGameLoop() 
         { // allows the landscape to continue generating when the player goes through it.
             // counts stops player from being able to collect unlimited amount of drops.
             int coincount = 0;
@@ -123,14 +123,7 @@ namespace ER_GameLibrary
 
             Clear();
             
-            SetCursorPosition(2, 38); ForegroundColor = ConsoleColor.White; WriteLine(@"Press (F1) to exit game");
-            if (chap2 == true && chap3 == true && chap4 == true && chap5 == true)
-            {
-                // once the player beats the final boss, the game ends with the following methods.
-               
-                
-            }
-
+        
                
             while (true)// while loop will break depending on the elementAtPlayerPos.
             {
@@ -370,7 +363,7 @@ namespace ER_GameLibrary
             
             
         }
-        public void RandomEncounters()
+        public void RandomEncounters()// randomizes level of encounter.
         {
             switch (rand.Next(0,2))
             {
