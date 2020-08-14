@@ -1,8 +1,9 @@
 # EltasRevengeFullGame
- Microsoft Software and Systems Academy (MSSA) Cloud Application Development course
- Cohort #6 
- Team#2 Project
-The following is a C# console game developed using .NET Core and Visual Studios. 
+ Microsoft Software and Systems Academy (MSSA) Cloud Application Development course,
+ Cohort #6,
+ Team#2 Project.
+ 
+C# console game developed using .NET Core and Visual Studios. 
 This three-week project was assigned in week two of the course.
 Documentation folder includes flowchart, assignment of work, change log, discrepancies log, mock ups, use case diagrams, and a process IPO chart. 
 
