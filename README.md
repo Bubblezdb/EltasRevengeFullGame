@@ -1,3 +1,4 @@
+![elta](https://user-images.githubusercontent.com/68390087/91794979-62c25900-ebea-11ea-8efd-279decd14ffb.jpg)
 # EltasRevengeFullGame
  Microsoft Software and Systems Academy (MSSA) Cloud Application Development course,
  Cohort #6,
